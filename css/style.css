@@ -192,7 +192,7 @@ ul li:hover .personal{
   }
 
   .transicion {
-    transition: all 2s ;
+    transition: all 1s ;
   }
   .transicion:hover {
     width: 500px;
