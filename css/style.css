@@ -188,9 +188,19 @@ ul li:hover .personal{
     font-size: 50px;
     padding: 10px;
     border: solid 5px #0e0e46;
-    transition:  widht 2s;
-    
+  
   }
+
+  .transicion {
+    transition: all 2s ;
+  }
+  .transicion:hover {
+    width: 500px;
+    height: 500px;
+    background-image: url(../img/argentina.png);
+  
+  }
+
   
   .arg {
     
