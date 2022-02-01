@@ -188,6 +188,7 @@ ul li:hover .personal{
     font-size: 50px;
     padding: 10px;
     border: solid 5px #0e0e46;
+    transition:  widht 2s;
     
   }
   
@@ -205,6 +206,9 @@ ul li:hover .personal{
   footer {
     width: 100%;
     height: 600px;
+    background-color: #0cbaba;
+  background-image: linear-gradient( to top, #380036 95%, #0cbaba 100% );
+  
    
   }
   
@@ -226,8 +230,10 @@ ul li:hover .personal{
     margin-left: 35% ;
     margin-bottom: 100px;
     padding: 50px;
-    background-color: #380036;
+   
     color: aliceblue;
+
+    
   }
 
   h5 {
@@ -240,7 +246,7 @@ ul li:hover .personal{
     font-size: 20px;
     margin-left: 13%;
     margin-bottom: 50px ;
-    background-color: #0e0e46;
+   
     color: #0a0a0a;
   }
   
@@ -263,6 +269,8 @@ ul li:hover .personal{
   .instagram {
     border-radius: 50%;
     box-shadow: 8px 5px 5px black;
+    
+    margin-left: 80%;
   }
    .face {
     border-radius: 50%;
@@ -881,6 +889,10 @@ footer {
       background-color: 867fca; 
       width: 30px;
       height: 30px;
+    }
+
+    .mas {
+      background-color: #fff;
     }
     
   
