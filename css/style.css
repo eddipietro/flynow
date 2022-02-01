@@ -1,0 +1,2223 @@
+
+/*CONTENIDO GENERAL*/
+
+
+* {
+  font-family: 'Manrope', sans-serif;;
+  margin: 0%;
+  padding: 0%
+}
+
+body {
+  
+  height: 100%;
+  width: 100%;
+  background-color: #2884b8;
+  background-image: linear-gradient(to top left, #380036 0%, #0cbaba 73% );
+
+}
+  
+button {
+  box-shadow: 10px 5px 5px black;
+}
+
+
+/*ORDEN RESPONSIVE */
+
+/*DESKTOP  minimo 1024px */
+@media (min-width:1024px) {
+
+/*CONTENIDO DEL NAV index*/
+
+
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #0cbaba;
+  background-image: linear-gradient( to top, #0cbaba 0%, #380036 95% );
+  
+}
+
+h1 {
+  font-size: 50px;
+  color: #0e0e46;
+  margin-left: 27%;
+padding: 11px;
+}
+.buscar {
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    
+    
+  
+}
+.buscar li { 
+  justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .provincias {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+  }
+  .actividades {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -0px;
+  }
+  .grupos {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+  }
+  .elegir {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+  }
+  .personal {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+  }
+
+  ul li:hover .provincias{
+      display: block;
+      
+  }
+  ul li:hover .actividades{
+    display: block;
+} 
+ul li:hover .grupos{
+  display: block;
+} 
+ul li:hover .elegir{
+  display: block;
+}
+ul li:hover .personal{
+  display: block;
+}
+
+
+  li {
+    width: 130px;
+    height: 30px;
+    background-color: #fff;
+    padding: 5px;
+    color: #e6e6f0;
+    list-style-type: none;
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #380036 0%, #0cbaba 74%);
+    border-radius: 5%;
+
+    
+  }
+  li:hover{
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #c 0%, #380036 74%);
+    border-radius: 5%;
+    color: #fff;
+  }
+
+  .dondeIr {
+    background-color: 867fca; 
+  }
+  .queHacer {
+    background-color: 867fca; 
+  }
+  .organizaTuViaje {
+    background-color: 867fca; 
+  }
+  .idioma {
+    background-color: 867fca; 
+    width: 30px;
+    height: 30px;
+  }
+  .menu {
+    background-color: rgb(40, 40, 218);
+    
+  }
+  .fav {
+    background-color: 867fca; 
+    width: 30px;
+    height: 30px;
+  }
+  .lupa {
+    background-color: 867fca; 
+    width: 30px;
+    height: 30px;
+  }
+  
+
+
+  /*CONTENIDO MAIN index*/
+
+
+  iframe {
+    border-radius: 50px;
+    height: 800px;
+  } 
+  
+  h2 {
+    display: block;
+    margin-top: 100px; 
+    margin-bottom: 30px;
+    font-size: 50px;
+    padding: 10px;
+    border: solid 5px #0e0e46;
+    
+  }
+  
+  .arg {
+    
+    width: 350px;
+
+  }
+  
+  
+  
+  
+  /*CONTENIDO FOOTER index*/
+  
+  footer {
+    width: 100%;
+    height: 600px;
+   
+  }
+  
+  
+  .graciasFlex {
+    display:flex ;
+  }
+  
+  p {
+    font-size: 35px;
+    background-color: darkgrey;
+    padding: 5px;
+  }
+  
+  
+  h3 {
+    display: block;
+    margin-top: 60px;
+    margin-left: 35% ;
+    margin-bottom: 100px;
+    padding: 50px;
+    background-color: #380036;
+    color: aliceblue;
+  }
+
+  h5 {
+    margin-top: 40px;
+    margin-left: 33%;
+    font-size: 15px;
+  }
+  .info {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 13%;
+    margin-bottom: 50px ;
+    background-color: #0e0e46;
+    color: #0a0a0a;
+  }
+  
+  
+  
+  .inicio {
+    display: inline-block;
+    margin-left: 20%;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    box-shadow: 8px 5px 5px black;
+  }
+  
+  .
+  .redes {
+    display: inline-block;
+    margin-left: 22%;
+    
+  }
+  .instagram {
+    border-radius: 50%;
+    box-shadow: 8px 5px 5px black;
+  }
+   .face {
+    border-radius: 50%;
+    box-shadow: 8px 5px 5px black;
+   }
+  
+  div , form , label , input {
+    font-size: 20px; 
+  }
+  
+  label {
+    margin-left: 30%;
+    color: aliceblue;
+  }
+  
+  
+  
+  /* Estilos de Grid por Areas pagina index*/
+  
+  #gridAreas {
+    display: grid;
+    grid-template-areas: 
+  
+  /*estructura 3 columnas y 9 filas*/
+  
+  "header header header"
+  "videos videos videos"
+  "bannerR bannerR bannerR"
+  "regiones regiones argentina"
+  "bannerI bannerI bannerI"
+  "imperdibles imperdibles imperdibles"
+  "bannerO bannerO bannerO"
+  "organiza organiza organiza"
+  "footer footer footer"
+  ;
+    grid-template-columns:  (3, 33.3%);
+    grid-template-rows: (9fr 2fr 1fr 3fr 1fr 3fr 1fr 3fr 3fr);
+  }
+  
+  /*Nombrar las areas */
+  
+  header {
+    grid-area: header;
+    width: 100%;
+    
+  }
+  #videos {
+    grid-area: videos;
+    display: flex;
+  }
+  #bannerR {
+    grid-area: bannerR;
+  }
+  #regiones {
+    grid-area: regiones;
+    margin-left: 40px ;
+   
+  }
+  #argentina {
+    grid-area: argentina;
+    margin-top: -25%;
+    margin-left: -40%;
+    height: 10%;
+    width: 20%;
+    
+    
+  }
+  #bannerI {
+    grid-area: bannerI;
+  }
+  #imperdibles {
+    grid-area: imperdibles;
+    margin: auto;
+  }
+  #bannerO {
+    grid-area: bannerO;
+  }
+  #organiza {
+    grid-area: organiza;
+    margin: auto;
+    margin-bottom: 3%;
+  }
+  #logo {
+    border-radius: 50%;
+    box-shadow: 8px 5px 5px black;
+  }
+  #perfil {
+    border-radius: 50%;
+    box-shadow: 8px 5px 5px black;
+  }
+  footer {
+    grid-area: footer;
+    background-color: #380036;
+  }
+  
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET minimo 481px maximo 1023px  */
+
+@media (min-width:481px) and (max-width:1023px) {
+
+
+
+/*CONTENIDO DEL NAV index*/
+
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #0cbaba;
+  background-image: linear-gradient( to top, #0cbaba 0%, #380036 95% );
+  
+}
+
+h1 {
+  font-size: 50px;
+  color: #0e0e46;
+  margin-left: 27%;
+padding: 10px;
+}
+.buscar {
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    
+    
+  
+}
+.buscar li { 
+  justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .provincias {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+  }
+  .actividades {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -0px;
+  }
+  .grupos {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+  }
+  .elegir {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+  }
+  .personal {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+  }
+
+  ul li:hover .provincias{
+      display: block;
+      
+  }
+  ul li:hover .actividades{
+    display: block;
+} 
+ul li:hover .grupos{
+  display: block;
+} 
+ul li:hover .elegir{
+  display: block;
+}
+ul li:hover .personal{
+  display: block;
+}
+
+
+  li {
+    width: 130px;
+    height: 30px;
+    background-color: #fff;
+    padding: 5px;
+    color: #e6e6f0;
+    list-style-type: none;
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #380036 0%, #0cbaba 74%);
+    border-radius: 5%;
+
+    
+  }
+  li:hover{
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #c 0%, #380036 74%);
+    border-radius: 5%;
+    color: #fff;
+  }
+
+  .dondeIr {
+    background-color: 867fca; 
+  }
+  .queHacer {
+    background-color: 867fca; 
+  }
+  .organizaTuViaje {
+    background-color: 867fca; 
+  }
+  .idioma {
+    background-color: 867fca; 
+    width: 30px;
+    height: 30px;
+  }
+  .menu {
+    background-color: rgb(40, 40, 218);
+    
+  }
+  .fav {
+    background-color: 867fca; 
+    width: 30px;
+    height: 30px;
+  }
+  .lupa {
+    background-color: 867fca; 
+    width: 30px;
+    height: 30px;
+  }
+  
+
+  /*CONTENIDO MAIN index*/
+
+
+  iframe {
+    border-radius: 50px;
+    height: 800px;
+  } 
+  
+  h2 {
+    display: block;
+    margin-top: 100px; 
+    margin-bottom: 30px;
+    font-size: 50px;
+    padding: 10px;
+    border: solid 5px #0e0e46;
+    
+  }
+  
+  .arg {
+    
+    width: 350px;
+
+  }
+  
+  
+
+
+
+
+/*CONTENIDO FOOTER index*/
+
+
+
+
+footer {
+  width: 100%;
+  height: 600px;
+ 
+}
+
+
+.graciasFlex {
+  display:flex ;
+}
+
+p {
+  font-size: 35px;
+  background-color: darkgrey;
+  padding: 5px;
+}
+
+
+h3 {
+  display: block;
+  margin-top: 60px;
+  margin-left: 35% ;
+  margin-bottom: 100px;
+  padding: 50px;
+  background-color: #380036;
+  color: aliceblue;
+}
+
+h5 {
+  margin-top: 40px;
+  margin-left: 33%;
+  font-size: 15px;
+}
+.info {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 13%;
+  margin-bottom: 50px ;
+  background-color: #0e0e46;
+  color: #0a0a0a;
+}
+
+
+
+.inicio {
+  display: inline-block;
+  margin-left: 20%;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  box-shadow: 8px 5px 5px black;
+}
+
+.
+.redes {
+  display: inline-block;
+  margin-left: 22%;
+  
+}
+.instagram {
+  border-radius: 50%;
+  box-shadow: 8px 5px 5px black;
+}
+ .face {
+  border-radius: 50%;
+  box-shadow: 8px 5px 5px black;
+ }
+
+div , form , label , input {
+  font-size: 20px; 
+}
+
+label {
+  margin-left: 30%;
+  color: aliceblue;
+}
+
+/* Estilos de Grid por Areas pagina index*/
+
+#gridAreas {
+  display: grid;
+  grid-template-areas: 
+
+/*estructura 3 columnas y 9 filas*/
+
+"header header header"
+"videos videos videos"
+"bannerR bannerR bannerR"
+"regiones regiones argentina"
+"bannerI bannerI bannerI"
+"imperdibles imperdibles imperdibles"
+"bannerO bannerO bannerO"
+"organiza organiza organiza"
+"footer footer footer"
+;
+  grid-template-columns:  (3, 33.3%);
+  grid-template-rows: (9fr 2fr 1fr 3fr 1fr 3fr 1fr 3fr 3fr);
+}
+
+/*Nombrar las areas */
+
+header {
+  grid-area: header;
+  width: 100%;
+}
+#videos {
+  grid-area: videos;
+}
+#bannerR {
+  grid-area: bannerR;
+}
+#regiones {
+  grid-area: regiones;
+  margin-left: 8% ;
+ 
+}
+#argentina {
+  grid-area: argentina;
+}
+#bannerI {
+  grid-area: bannerI;
+}
+#imperdibles {
+  grid-area: imperdibles;
+  margin-left: 10%;;
+}
+#bannerO {
+  grid-area: bannerO;
+}
+#organiza {
+  grid-area: organiza;
+  margin: auto;
+  margin-bottom: 5%;
+}
+footer {
+  grid-area: footer;
+}
+.mail {
+  margin-left: 10%;
+}
+#logo {
+  border-radius: 50%;
+  box-shadow: 8px 5px 5px black;
+}
+#perfil {
+  border-radius: 50%;
+  box-shadow: 8px 5px 5px black;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SMARTPHONE  maximo 480px */
+
+
+ @media (max-width:480px) {
+
+  /*CONTENIDO DEL NAV index*/
+  
+  .ico {
+    background-color: #0e0e46;
+    width: 70px;
+    height: 70px;
+  }
+  .mas {
+    background-color: #0e0e46;
+    width: 40px;
+    height: 40px;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #0cbaba;
+    background-image: linear-gradient( to top, #0cbaba 0%, #380036 95% );
+    
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: #0e0e46;
+    margin-left: 27%;
+  padding: 10px;
+  }
+  .buscar {
+      justify-content: space-between;
+      display: flex;
+      list-style: none;
+      align-items: center;
+      list-style: none;
+      text-decoration: none;
+      font-size: 15px;
+      
+      
+    
+  }
+  .buscar li { 
+    justify-content: space-between;
+      align-items: center;
+      display: flex;
+      position: relative;
+      list-style: none;
+      text-decoration: none;
+      
+    }
+  
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .provincias {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+    .actividades {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: -0px;
+    }
+    .grupos {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+    .elegir {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+    .personal {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+  
+    ul li:hover .provincias{
+        display: block;
+        
+    }
+    ul li:hover .actividades{
+      display: block;
+  } 
+  ul li:hover .grupos{
+    display: block;
+  } 
+  ul li:hover .elegir{
+    display: block;
+  }
+  ul li:hover .personal{
+    display: block;
+  }
+  
+  
+    li {
+      width: 130px;
+      height: 30px;
+      background-color: #fff;
+      padding: 5px;
+      color: #e6e6f0;
+      list-style-type: none;
+      background-color: #0cbaba;
+      background-image: linear-gradient(315deg, #380036 0%, #0cbaba 74%);
+      border-radius: 5%;
+  
+      
+    }
+    li:hover{
+      background-color: #0cbaba;
+      background-image: linear-gradient(315deg, #c 0%, #380036 74%);
+      border-radius: 5%;
+      color: #fff;
+    }
+  
+    .dondeIr {
+      background-color: 867fca; 
+    }
+    .queHacer {
+      background-color: 867fca; 
+    }
+    .organizaTuViaje {
+      background-color: 867fca; 
+    }
+    .idioma {
+      background-color: 867fca; 
+      width: 30px;
+      height: 30px;
+    }
+    .menu {
+      background-color: rgb(40, 40, 218);
+      
+    }
+    .fav {
+      background-color: 867fca; 
+      width: 30px;
+      height: 30px;
+    }
+    .lupa {
+      background-color: 867fca; 
+      width: 30px;
+      height: 30px;
+    }
+    
+  
+  /*CONTENIDO MAIN index*/
+
+
+iframe {
+  width: 450px;
+  height: 300px;
+  margin-top: 5px;
+  margin-left: 3%;
+  border-radius: 50px;
+} 
+
+h2 {
+  display: block;
+  margin-top: 20px; 
+  margin-bottom: 30px;
+  font-size: 20px;
+  padding: 10px;
+  border: solid 5px #0e0e46;
+  background-color: #0e0e46;
+  color: beige;
+}
+
+.arg {
+  display: none;
+  margin-top: 80px;
+  width: 340px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*CONTENIDO FOOTER index*/
+
+
+
+.graciasFlex {
+  display:flex ;
+}
+
+p {
+  font-size: 35px;
+  background-color: darkgrey;
+  padding: 5px;
+}
+
+
+h3 {
+  display: block;
+  margin-top: 20px;
+ 
+  margin-bottom: 20px;
+  padding: 30px;
+  border-color: #380036;
+  color: aliceblue;
+}
+
+
+.info {
+  display: block;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 120px;
+  padding-bottom: 10px;
+  margin-bottom: 50px ;
+  background-color: #d3d3d3;
+  color: #0a0a0a;
+}
+
+
+
+.inicio {
+  display: block;
+  margin-left: 170px ;
+  margin-bottom: 50px;
+}
+
+.redes {
+  display: inline-block;
+  margin-left: 43%;
+  margin-bottom: 40px;
+  
+}
+.mail{
+
+  margin: auto;
+}
+
+div , form , label , input {
+  font-size: 25px; 
+}
+
+label {
+  
+  margin-left: 25%;
+  color: aliceblue;
+}
+
+h5 {
+  margin-top: 40px;
+  margin-left: 5%;
+  font-size: 14px;
+}
+
+/* Estilos de Grid por Areas pagina index*/
+
+#gridAreas {
+  display: grid;
+  grid-template-areas: 
+
+/*estructura 3 columnas y 9 filas*/
+
+"header header header"
+"videos videos videos"
+"bannerR bannerR bannerR"
+"regiones regiones argentina"
+"bannerI bannerI bannerI"
+"imperdibles imperdibles imperdibles"
+"bannerO bannerO bannerO"
+"organiza organiza organiza"
+"footer footer footer"
+;
+  grid-template-columns:  (3, 33.3%);
+  grid-template-rows: (9fr 2fr 1fr 3fr 1fr 3fr 1fr 3fr 3fr);
+}
+
+/*Nombrar las areas */
+
+header {
+  grid-area: header;
+  width: 100%;
+}
+#videos {
+  grid-area: videos;
+}
+#bannerR {
+  grid-area: bannerR;
+}
+#regiones {
+  grid-area: regiones;
+  margin-left:4% ;
+ 
+}
+#argentina {
+  grid-area: argentina;
+}
+#bannerI {
+  grid-area: bannerI;
+}
+#imperdibles {
+  grid-area: imperdibles;
+  margin-left:4% ;
+}
+#bannerO {
+  grid-area: bannerO;
+}
+#organiza {
+  grid-area: organiza;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+#subir {
+  background-color: #0e0e46;
+}
+
+#instagram {
+  background-color: #0e0e46;
+  width: 30px;
+  height: 30px;
+}
+#face {
+  background-color: #0e0e46;
+  width: 30px;
+  height: 30px;
+}
+
+img, imagenes {
+  height: 140px;
+  width: 140px;
+}
+footer {
+  grid-area: footer;
+  height: 750px;
+  width: 100%;
+  background-color: #0e0e46;
+  
+}
+label {
+  margin-left: 55px;
+}
+form {
+  margin-left: 10px;
+}
+.email {
+  margin-left: 23px;
+}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* GRID PAGINA PROVINCIAS*/
+
+/*DESKTOP*/
+@media (min-width:1024px){
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #0cbaba;
+    background-image: linear-gradient( to top, #0cbaba 0%, #380036 95% );
+    
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: #0e0e46;
+    margin-left: 27%;
+  padding: 10px;
+  }
+  .buscar {
+      justify-content: space-between;
+      display: flex;
+      list-style: none;
+      align-items: center;
+      list-style: none;
+      text-decoration: none;
+      font-size: 15px;
+      
+      
+    
+  }
+  .buscar li { 
+    justify-content: space-between;
+      align-items: center;
+      display: flex;
+      position: relative;
+      list-style: none;
+      text-decoration: none;
+      
+    }
+  
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .provincias {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+    .actividades {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: -0px;
+    }
+    .grupos {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+    .elegir {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+    .personal {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+  
+    ul li:hover .provincias{
+        display: block;
+        
+    }
+    ul li:hover .actividades{
+      display: block;
+  } 
+  ul li:hover .grupos{
+    display: block;
+  } 
+  ul li:hover .elegir{
+    display: block;
+  }
+  ul li:hover .personal{
+    display: block;
+  }
+  
+  
+    li {
+      width: 130px;
+      height: 30px;
+      background-color: #fff;
+      padding: 5px;
+      color: #e6e6f0;
+      list-style-type: none;
+      background-color: #0cbaba;
+      background-image: linear-gradient(315deg, #380036 0%, #0cbaba 74%);
+      border-radius: 5%;
+  
+      
+    }
+    li:hover{
+      background-color: #0cbaba;
+      background-image: linear-gradient(315deg, #c 0%, #380036 74%);
+      border-radius: 5%;
+      color: #fff;
+    }
+  
+    .dondeIr {
+      background-color: 867fca; 
+    }
+    .queHacer {
+      background-color: 867fca; 
+    }
+    .organizaTuViaje {
+      background-color: 867fca; 
+    }
+    .idioma {
+      background-color: 867fca; 
+      width: 30px;
+      height: 30px;
+    }
+    .menu {
+      background-color: rgb(40, 40, 218);
+      
+    }
+    .fav {
+      background-color: 867fca; 
+      width: 30px;
+      height: 30px;
+    }
+    .lupa {
+      background-color: 867fca; 
+      width: 30px;
+      height: 30px;
+    }
+    
+  
+/*CONTENIDO MAIN index*/
+
+
+
+
+
+
+
+
+
+iframe {
+  border-radius: 50px;
+  height: 630px;
+} 
+
+h1 {
+  font-size: 50px;
+  color: #0e0e46;
+  margin-top: 2%;
+  margin-left: 5%;
+  padding: 4%;
+
+}
+h2 {
+  display: block;
+  margin-top: 100px; 
+  margin-bottom: 30px;
+  font-size: 50px;
+  padding: 10px;
+  border: solid 5px #0e0e46;
+  background-color: #0e0e46;
+  color: beige;
+}
+
+.arg {
+  margin-top: 80px;
+  width: 340px;;
+}
+
+
+
+
+
+
+
+
+
+/*CONTENIDO FOOTER index*/
+
+footer {
+  width: 100%;
+  height: 600px;
+ 
+}
+
+
+.graciasFlex {
+  display:flex ;
+}
+
+p {
+  font-size: 35px;
+  background-color: darkgrey;
+  padding: 5px;
+}
+
+
+h3 {
+  display: block;
+  margin-top: 60px;
+  margin-left: 35% ;
+  margin-bottom: 100px;
+  padding: 50px;
+  background-color: #380036;
+  color: aliceblue;
+}
+
+h5 {
+  margin-top: 40px;
+  margin-left: 33%;
+  font-size: 15px;
+}
+.info {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 13%;
+  margin-bottom: 50px ;
+  background-color: #0e0e46;
+  color: #0a0a0a;
+}
+
+
+
+.inicio {
+  display: inline-block;
+  margin-left: 20%;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  box-shadow: 8px 5px 5px black;
+}
+
+.
+.redes {
+  display: inline-block;
+  margin-left: 22%;
+  
+}
+.instagram {
+  border-radius: 50%;
+  box-shadow: 8px 5px 5px black;
+}
+ .face {
+  border-radius: 50%;
+  box-shadow: 8px 5px 5px black;
+ }
+
+div , form , label , input {
+  font-size: 20px; 
+}
+
+label {
+  margin-left: 30%;
+  color: aliceblue;
+}
+
+
+#gridBs {
+  display: grid;
+  grid-template-areas: 
+
+/*estructura 2 columnas y 11 filas*/
+
+"header header "
+"ciudad ciudad "
+"descripcion  video"
+"mapa mapa "
+"gratis pagas"
+"festivales festivales "
+"hoteles hoteles"
+"traslados traslados"
+"recomendaciones recomendaciones "
+"footer footer "
+;
+  grid-template-columns:  (50% 50%);
+  grid-template-rows: (9fr 9fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr);
+}
+
+/*Nombrar las areas */
+
+header {
+  grid-area: header;
+  width: 100%;
+}
+.ciuadad {
+  grid-area: ciudad;
+}
+.descripcion {
+  grid-area: descripcion;
+}
+.gratis {
+  grid-area: gratis;
+}
+.pagas {
+  grid-area: pagas;
+}
+.festivales {
+  grid-area: festivales;
+}
+.hoteles {
+  grid-area: hoteles;
+}
+.traslados {
+  grid-area: traslados;
+}
+.recomendaciones {
+  grid-area: recomendaciones;
+}
+.mapa {
+  grid-area: mapa;
+  margin: auto;
+  
+}
+.video {
+  grid-area: video;
+  padding: 2%;
+  margin: auto;
+}
+
+footer {
+  grid-area: footer;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET minimo 481px maximo 1023px  */
+
+@media (min-width:481px) and (max-width:1023px) {
+
+
+
+  /*CONTENIDO DEL NAV index*/
+  
+  
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #0cbaba;
+    background-image: linear-gradient( to top, #0cbaba 0%, #380036 95% );
+    
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: #0e0e46;
+    margin-left: 27%;
+  padding: 10px;
+  }
+  .buscar {
+      justify-content: space-between;
+      display: flex;
+      list-style: none;
+      align-items: center;
+      list-style: none;
+      text-decoration: none;
+      font-size: 15px;
+      
+      
+    
+  }
+  .buscar li { 
+    justify-content: space-between;
+      align-items: center;
+      display: flex;
+      position: relative;
+      list-style: none;
+      text-decoration: none;
+      
+    }
+  
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .provincias {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+    .actividades {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: -0px;
+    }
+    .grupos {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+    .elegir {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+    .personal {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+  
+    ul li:hover .provincias{
+        display: block;
+        
+    }
+    ul li:hover .actividades{
+      display: block;
+  } 
+  ul li:hover .grupos{
+    display: block;
+  } 
+  ul li:hover .elegir{
+    display: block;
+  }
+  ul li:hover .personal{
+    display: block;
+  }
+  
+  
+    li {
+      width: 130px;
+      height: 30px;
+      background-color: #fff;
+      padding: 5px;
+      color: #e6e6f0;
+      list-style-type: none;
+      background-color: #0cbaba;
+      background-image: linear-gradient(315deg, #380036 0%, #0cbaba 74%);
+      border-radius: 5%;
+  
+      
+    }
+    li:hover{
+      background-color: #0cbaba;
+      background-image: linear-gradient(315deg, #c 0%, #380036 74%);
+      border-radius: 5%;
+      color: #fff;
+    }
+  
+    .dondeIr {
+      background-color: 867fca; 
+    }
+    .queHacer {
+      background-color: 867fca; 
+    }
+    .organizaTuViaje {
+      background-color: 867fca; 
+    }
+    .idioma {
+      background-color: 867fca; 
+      width: 30px;
+      height: 30px;
+    }
+    .menu {
+      background-color: rgb(40, 40, 218);
+      
+    }
+    .fav {
+      background-color: 867fca; 
+      width: 30px;
+      height: 30px;
+    }
+    .lupa {
+      background-color: 867fca; 
+      width: 30px;
+      height: 30px;
+    }
+    
+  
+    /*CONTENIDO MAIN index*/
+  
+  
+  iframe {
+    
+    height: 630px;
+  } 
+  
+  h1 {
+    font-size: 40px;
+    color: #0e0e46;
+    margin: auto;
+    padding: 4%;
+  }
+
+  h2 {
+    display: block;
+    margin-top: 100px; 
+    margin-bottom: 30px;
+    font-size: 25px;
+    padding: 10px;
+    border: solid 5px #0e0e46;
+    background-color: #0e0e46;
+    color: beige;
+  }
+  
+  
+  
+  
+  /*CONTENIDO FOOTER index*/
+  
+  footer {
+    width: 100%;
+    height: 600px;
+   
+  }
+  
+  
+  .graciasFlex {
+    display:flex ;
+  }
+  
+  p {
+    font-size: 35px;
+    background-color: darkgrey;
+    padding: 5px;
+  }
+  
+  
+  h3 {
+    display: block;
+    margin-top: 60px;
+    margin-left: 35% ;
+    margin-bottom: 100px;
+    padding: 50px;
+    background-color: #380036;
+    color: aliceblue;
+  }
+
+  h5 {
+    margin-top: 40px;
+    margin-left: 33%;
+    font-size: 15px;
+  }
+  .info {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 13%;
+    margin-bottom: 50px ;
+    background-color: #0e0e46;
+    color: #0a0a0a;
+  }
+  
+  
+  
+  .inicio {
+    display: inline-block;
+    margin-left: 20%;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    box-shadow: 8px 5px 5px black;
+  }
+  
+  .
+  .redes {
+    display: inline-block;
+    margin-left: 22%;
+    
+  }
+  .instagram {
+    border-radius: 50%;
+    box-shadow: 8px 5px 5px black;
+  }
+   .face {
+    border-radius: 50%;
+    box-shadow: 8px 5px 5px black;
+   }
+  
+  div , form , label , input {
+    font-size: 20px; 
+  }
+  
+  label {
+    margin-left: 30%;
+    color: aliceblue;
+  }
+  
+
+
+
+
+
+
+
+  #gridBs {
+    display: grid;
+    grid-template-areas: 
+  
+  /*estructura 2 columnas y 11 filas*/
+  
+  "header header "
+  "ciudad ciudad "
+  "descripcion  descripcion"
+  "video video"
+  "mapa mapa "
+  "gratis gratis"
+  "pagas pagas"
+  "festivales festivales "
+  "hoteles hoteles"
+  "traslados traslados"
+  "recomendaciones recomendaciones "
+  "footer footer "
+  ;
+    grid-template-columns:  (50% 50%);
+    grid-template-rows: (9fr 9fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr);
+  }
+  
+  /*Nombrar las areas */
+  header {
+    grid-area: header;
+    width: 100%;
+  }
+
+
+
+  .ciuadad {
+    grid-area: ciudad;
+  }
+  .descripcion {
+    grid-area: descripcion;
+  }
+  .gratis {
+    grid-area: gratis;
+  }
+  .pagas {
+    grid-area: pagas;
+  }
+  .festivales {
+    grid-area: festivales;
+  }
+  .hoteles {
+    grid-area: hoteles;
+  }
+  .traslados {
+    grid-area: traslados;
+  }
+  .recomendaciones {
+    grid-area: recomendaciones;
+  }
+  .mapa {
+    grid-area: mapa;
+    margin: auto;
+    
+  }
+  .video {
+    grid-area: video;
+    padding: 2%;
+    margin: auto;
+  }
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SMARTPHONE  maximo 480px  provincias */
+
+
+@media (max-width:480px) {
+
+  /*CONTENIDO DEL NAV index*/
+  
+  .ico {
+    background-color: #0e0e46;
+    width: 70px;
+    height: 70px;
+  }
+  .mas {
+    background-color: #0e0e46;
+    width: 40px;
+    height: 40px;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #0cbaba;
+    background-image: linear-gradient( to top, #0cbaba 0%, #380036 95% );
+    
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: #0e0e46;
+    margin-left: 27%;
+  padding: 10px;
+  }
+  .buscar {
+      justify-content: space-between;
+      display: flex;
+      list-style: none;
+      align-items: center;
+      list-style: none;
+      text-decoration: none;
+      font-size: 15px;
+      
+      
+    
+  }
+  .buscar li { 
+    justify-content: space-between;
+      align-items: center;
+      display: flex;
+      position: relative;
+      list-style: none;
+      text-decoration: none;
+      
+    }
+  
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .provincias {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+    .actividades {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: -0px;
+    }
+    .grupos {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+    .elegir {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+    .personal {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+    }
+  
+    ul li:hover .provincias{
+        display: block;
+        
+    }
+    ul li:hover .actividades{
+      display: block;
+  } 
+  ul li:hover .grupos{
+    display: block;
+  } 
+  ul li:hover .elegir{
+    display: block;
+  }
+  ul li:hover .personal{
+    display: block;
+  }
+  
+  
+    li {
+      width: 130px;
+      height: 30px;
+      background-color: #fff;
+      padding: 5px;
+      color: #e6e6f0;
+      list-style-type: none;
+      background-color: #0cbaba;
+      background-image: linear-gradient(315deg, #380036 0%, #0cbaba 74%);
+      border-radius: 5%;
+  
+      
+    }
+    li:hover{
+      background-color: #0cbaba;
+      background-image: linear-gradient(315deg, #c 0%, #380036 74%);
+      border-radius: 5%;
+      color: #fff;
+    }
+  
+    .dondeIr {
+      background-color: 867fca; 
+    }
+    .queHacer {
+      background-color: 867fca; 
+    }
+    .organizaTuViaje {
+      background-color: 867fca; 
+    }
+    .idioma {
+      background-color: 867fca; 
+      width: 30px;
+      height: 30px;
+    }
+    .menu {
+      background-color: rgb(40, 40, 218);
+      
+    }
+    .fav {
+      background-color: 867fca; 
+      width: 30px;
+      height: 30px;
+    }
+    .lupa {
+      background-color: 867fca; 
+      width: 30px;
+      height: 30px;
+    }
+    
+  
+  /*CONTENIDO MAIN index*/
+
+
+iframe {
+  width: 450px;
+  height: 300px;
+  margin-top: 5px;
+  margin-left: 3%;
+} 
+
+
+h1 {
+  display: inline block;
+  font-size:25px;
+  color: #0e0e46;
+  margin: auto;
+  padding: 4%;
+}
+
+h2 {
+  display: block;
+  margin-top: 20px; 
+  margin-bottom: 30px;
+  font-size: 20px;
+  padding: 10px;
+  border: solid 5px #0e0e46;
+  background-color: #0e0e46;
+  color: beige;
+}
+
+.arg {
+  display: none;
+  margin-top: 80px;
+  width: 340px;;
+}
+
+
+
+
+/*CONTENIDO FOOTER index*/
+
+
+
+.graciasFlex {
+  display:flex ;
+}
+
+p {
+  font-size: 16px;
+  background-color: darkgrey;
+  padding: 2%;
+  margin: 2% 2%;
+}
+
+h3 {
+  display: block;
+  margin-top: 20px;
+ 
+  margin-bottom: 20px;
+  padding: 30px;
+  background-color: #380036;
+  color: aliceblue;
+}
+
+
+.info {
+  display: block;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 120px;
+  padding-bottom: 10px;
+  margin-bottom: 50px ;
+  background-color: #d3d3d3;
+  color: #0a0a0a;
+}
+
+
+
+.inicio {
+  display: block;
+  margin-left: 170px ;
+  margin-bottom: 50px;
+}
+
+.redes {
+  display: inline-block;
+  margin-left: 33%;
+  margin-bottom: 40px;
+  
+}
+.mail{
+
+  margin: auto;
+}
+
+div , form , label , input {
+  font-size: 25px; 
+}
+
+label {
+  
+  margin-left: 25%;
+  color: aliceblue;
+}
+
+h5 {
+  margin-top: 40px;
+  margin-left: 5%;
+  font-size: 14px;
+}
+
+#gridBs {
+  display: grid;
+  grid-template-areas: 
+
+/*estructura 2 columnas y 11 filas*/
+
+"header header "
+"ciudad ciudad "
+"descripcion  descripcion"
+"video video"
+"mapa mapa "
+"gratis gratis"
+"pagas pagas"
+"festivales festivales "
+"hoteles hoteles"
+"traslados traslados"
+"recomendaciones recomendaciones "
+"footer footer "
+;
+  grid-template-columns:  (50% 50%);
+  grid-template-rows: (9fr 9fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr);
+}
+
+/*Nombrar las areas */
+header {
+  grid-area: header;
+  width: 100%;
+  
+}
+
+
+.ciuadad {
+  grid-area: ciudad;
+}
+.descripcion {
+  grid-area: descripcion;
+}
+.gratis {
+  grid-area: gratis;
+}
+.pagas {
+  grid-area: pagas;
+}
+.festivales {
+  grid-area: festivales;
+}
+.hoteles {
+  grid-area: hoteles;
+}
+.traslados {
+  grid-area: traslados;
+}
+.recomendaciones {
+  grid-area: recomendaciones;
+}
+.mapa {
+  grid-area: mapa;
+  margin: 2% 2%;
+  
+}
+.video {
+  grid-area: video;
+  padding: 2%;
+  margin: 2% 2%;
+}
+
+
+
+
+#instagram {
+  background-color: #0e0e46;
+  width: 30px;
+  height: 30px;
+}
+#face {
+  background-color: #0e0e46;
+  width: 30px;
+  height: 30px;
+}
+
+img, imagenes {
+  height: 140px;
+  width: 140px;
+}
+footer {
+  grid-area: footer;
+  height: 750px;
+  width: 100%;
+  background-color: #0e0e46;
+  
+}
+label {
+  margin-left: 55px;
+}
+form {
+  margin-left: 10px;
+}
+.email {
+  margin-left: 23px;
+}
+
+  }
+
+  
