@@ -199,11 +199,19 @@ button {
 
 
   .transicion {
+<<<<<<< HEAD
     transition: all 0.5s;
+  }
+  .transicion:hover {
+    width: 300px;
+    height:300px;
+=======
+    transition: all 2s;
   }
   .transicion:hover {
     width: 400px;
     height: 400px;
+>>>>>>> 6b7ed0857ed2d1a3eaad9aa311f4c0e7e50cc2b8
   }
 
 
@@ -381,7 +389,11 @@ button {
     grid-area: footer;
     background-color: #380036;
   }
+<<<<<<< HEAD
 
+=======
+}
+>>>>>>> 6b7ed0857ed2d1a3eaad9aa311f4c0e7e50cc2b8
 
 
 
@@ -946,6 +958,7 @@ h1 {
     height: 30px;
   }
 
+
   img{
     height: 140px;
     width: 140px;
@@ -956,7 +969,6 @@ h1 {
     height: 800px;
     width: 100%;
     background-color: #0e0e46;
-
   }
 
   label {
@@ -969,6 +981,3 @@ h1 {
 
   
 }
-
-
-
