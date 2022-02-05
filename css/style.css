@@ -31,10 +31,7 @@ nav {
   align-items: flex-end;
   background-color: #0cbaba;
   background-image: linear-gradient(to top, #0cbaba 0%, #380036 95%);
-
 }
-
-
 
 .buscar {
   justify-content: space-between;
@@ -239,7 +236,7 @@ footer {
 }
 
 p {
-  font-size: 35px;
+  font-size: 36px;
   background-color: darkgrey;
   padding: 5px;
 }
@@ -262,7 +259,7 @@ h5 {
 
 .info {
   display: inline-block;
-  font-size: 20px;
+  font-size: 21px;
   margin-left: 13%;
   margin-bottom: 50px;
   color: #0a0a0a;
@@ -714,7 +711,7 @@ footer {
   h5 {
     margin-top: 40px;
     margin-left: 5%;
-    font-size: 14px;
+    font-size: 13px;
   }
 
 
