@@ -28,7 +28,7 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   background-color: #0cbaba;
   background-image: linear-gradient(to top, #0cbaba 0%, #380036 95%);
 }
@@ -399,6 +399,7 @@ footer {
 
   nav {
     flex-direction: column;
+    justify-content: center;
 }
 .buscar {
   flex-direction: column;
@@ -612,6 +613,7 @@ footer {
 
   nav {
     flex-direction: column;
+    justify-content: center;
   }
 
 
