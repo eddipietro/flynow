@@ -1,10 +1,27 @@
 /*Comentario de scss*/
 body{
+  width: 100%;
     background-image: linear-gradient(to top, #380036 0%, #0cbaba 95%); 
 
 }
+main {
+  h1 {
+    margin: 0% 6%;
+    color: azure;
+    font-size: 30px;
+    justify-content: center;
+    text-shadow:  0 1px #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+ }
+  
+}
 
-h2 {
+main {
+  h2 {
+    @extend h1 ;
     display: block;
     margin-top: 60px;
     margin-bottom: 30px;
@@ -12,6 +29,8 @@ h2 {
     padding: 10px;
     background-image: linear-gradient(to top, #380036 0%, #0cbaba 95%);
     color: azure;
+  
+  }
   }
   .transicion {
     transition: all 1s;
@@ -23,36 +42,32 @@ h2 {
   }
   iframe {
     width: 100%;
-    margin: 3%;
+    margin: 0.5% 3%;
     border-radius: 50px;
     height: 800px;
   }
-  .inicio {
-      margin-left: 43%;
-      margin-bottom: 5%;
-      box-shadow: 10px 5px 5px black;
-      border-radius: 50%;
-  }
+  
   .redes {
     box-shadow: 10px 5px 5px black;
     border-radius: 50%;
   }
-  .logo {
-    box-shadow: 10px 5px 5px black;
-    border-radius: 50%; 
-  }
   
-  #video {
-    width: 700px;
-    height: 500px;
-  }
-  #map {
-    width: 500px;
-    height: 300px;
-  }
   
   /*comentario*/
   p {
     font-size: 20px;
   }
 
+
+ 
+ /*********
+  IMPORTS
+ ***********/
+ @import "./imputs";
+ @import "./botones";
+ @import "./mixin";
+ @import "./maps";
+
+
+
+ 
