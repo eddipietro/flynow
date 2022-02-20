@@ -32,23 +32,17 @@ iframe {
   height: 800px;
 }
 
-.inicio {
-  margin-left: 43%;
-  margin-bottom: 5%;
-  -webkit-box-shadow: 10px 5px 5px black;
-          box-shadow: 10px 5px 5px black;
-  border-radius: 50%;
-}
+
 
 .redes {
   -webkit-box-shadow: 10px 5px 5px black;
-          box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 5px 5px black;
   border-radius: 50%;
 }
 
 .logo {
   -webkit-box-shadow: 10px 5px 5px black;
-          box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 5px 5px black;
   border-radius: 50%;
 }
 /*# sourceMappingURL=origen.css.map */
