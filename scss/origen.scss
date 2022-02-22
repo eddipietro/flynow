@@ -1,7 +1,12 @@
+
 /*Comentario de scss*/
+* {
+  margin: 0%;
+  padding: 0%;
+}
 body{
   width: 100%;
-    background-image: linear-gradient(to top, #380036 0%, #0cbaba 95%); 
+    background-image: "linear-gradient(to top, #380036 0%, #0cbaba 95%)"; 
 
 }
 main {
@@ -59,6 +64,8 @@ main {
   }
 
 
+  /*Smartphone*/
+/********* Comentariiooooooooooooooooooooos*/
  
  /*********
   IMPORTS
@@ -70,4 +77,5 @@ main {
 
 
 
- 
+
+

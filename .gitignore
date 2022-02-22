@@ -1,0 +1,7 @@
+#IGNORANDO CARPETAS
+node_modules
+
+#IGNORANDO ARCHIVOS
+package-lock.json
+package.json
+
