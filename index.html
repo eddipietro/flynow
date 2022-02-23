@@ -13,7 +13,6 @@
     <title> inicio de FlyNow pagina de vuelo</title>
 </head>
 <body class="container-fluid" style="background-image: linear-gradient(to top, #380036 0%, #0cbaba 95%)";>
-
   <header class="p-3 bg-dark text-white conteiner-fluid" style="background-image: linear-gradient(to top, #0cbaba 0%, #380036 95%)";>
     <div class="container-fluid">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -24,6 +23,7 @@
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><a href="./dondeir/dondeir.html" class="nav-link px-2 text-white">DONDE IR</a></li>
           <li><a href="./organiza/organizatuviaje.html" class="nav-link px-2 text-white">ORGANIZÁ TU VIAJE</a></li>
+          <li><a href="./footer/nosotros.html" class="nav-link px-2 text-white">NOSOTROS</a></li>
         </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
@@ -38,7 +38,7 @@
   </header>
 
       <main class="container-fluid">
-        <h1 class="animate__animated animate__pulse">Te ayudamos a planear tu viaje perfecto gratis, con los mejores lugares, paisajes y restautantes</h1>
+        <h1 class="animate__animated animate__pulse" id="tituloPrincipal">Te ayudamos a planear tu viaje perfecto gratis, con los mejores lugares, paisajes y restautantes</h1>
         <section>
         
             <iframe class="container-fluid" id="videoPrincipal" width="100%" height="100%" src="https://www.youtube.com/embed/1OqTRbarbNw" title="YouTube video player"
@@ -47,7 +47,7 @@
                 allowfullscreen></iframe>
         </section>
         <section class="container-fluid">
-            <h2 class="animate__animated animate__fadeInLeftBig">REGIONES</h2>
+            <h2 class="animate__animated animate__fadeInLeftBig container-fluid">REGIONES</h2>
         </section>
         <div class="container">
             <div class="row align-items-start">
@@ -85,60 +85,24 @@
       </main>
       
       
-          
-        <footer class="py-5 conteiner-fluid" style="background-image: linear-gradient(to top, #380036 33%, #0cbaba 95%)";>
-            <a href="./index.html"><img class="inicio" src="./img/logoflynow.png" width="130px" height="130px" alt=""></a>
-          
-            <div class="row">
-            <div class="col-2">
-              <h3 style="color: azure;" >Información</h3>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a style="color: azure;" href="./footer/nosotros.html" class="nav-link p-0">Nosotros</a></li>
-                <li class="nav-item mb-2"><a style="color: azure;" href="./footer/infogeneral.html" class="nav-link p-0">Información General</a></li>
-                <li class="nav-item mb-2"><a style="color: azure;" href="./footer/consejos.html" class="nav-link p-0">Consejos de Viaje</a></li>
-                <li class="nav-item mb-2"><a style="color: azure;" href="./footer/preguntas.html" class="nav-link p-0">Preguntas Frecuentes</a></li>
-              </ul>
-            </div>
-      
-            <div class="col-2">
-              <h3 style="color: azure;">Section</h3>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a style="color: azure;" href="./footer/infogeneral.html" class="nav-link p-0">Datos de Contacto</a></li>
-                <li class="nav-item mb-2"><a style="color: azure;" href="./footer/infogeneral.html" class="nav-link p-0">Política y Privacidad</a></li>
-                <li class="nav-item mb-2"><a style="color: azure;" href="./footer/infogeneral.html" class="nav-link p-0">Términos y Condiciones</a></li>
-              </ul>
-            </div>
-      
-            <div class="col-2">
-              <h3 style="color: azure;">Redes</h3>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a style="color: azure;" href="http://www.intsgram.com" class="nav-link p-0"><img class="redes" src="./img/instagram.png" width="40px" height="40px" alt=""></a></li>
-                <li class="nav-item mb-2"><a style="color: azure;" href="http://www.facebook.com" class="nav-link p-0"><img class="redes" src="./img/face.png" width="40px" height="40px" alt=""></a></li>
-                
-              </ul>
-            </div>
-      
-            <div class="col-4 offset-1">
-              <form>
-                <h3 style="color: azure;">Recibí nuestras novedades</h3>
-                <div class="d-flex w-100 gap-2">
-                  <label for="newsletter1" style="color: azure;"></label>
-                  <input id="newsletter1" type="text" class="form-control" placeholder="Ingresá tu email">
-                  <button class="btn btn-primary" type="button">Subscribe</button>
-                </div>
-              </form>
-            </div>
-          </div>
-      
-          <div class="d-flex justify-content-between py-4 my-4 border-top">
-            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      <div class="container-fluid">
+        <footer class="py-3 my-4" style="background-image: linear-gradient(to top, #380036 33%, #0cbaba 95%)";>
+          <a href="./index.html" id="subir" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <img class="logo" src="./img/logoflynow.png" width="120" alt="logo">
+          </a>
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="http://www.instagram.com" class="nav-link px-2 text-muted"><img class="logo" width="38" src="./img/instagram.png" alt="instagram"></a></li>
+            <li class="nav-item"><a href="http://www.facebook.com" class="nav-link px-2 text-muted"><img class="logo" width="37" src="./img/face.png" alt="facebook"></a></li>
             </ul>
-          </div>
+          
+            <p class="text-center text-muted"><a href="./footer/infogeneral.html" class="nav-link px-2 text-muted">Términos y Condiciones</a></p>
+           
+          <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
         </footer>
+      </div>
+          
+      
+       
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

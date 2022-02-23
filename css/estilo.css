@@ -54,8 +54,10 @@ p {
   font-size: 20px;
 }
 
-/*Smartphone*/
-/********* Comentariiooooooooooooooooooooos*/
+#subir {
+  margin-left: auto;
+}
+
 /*********
  IMPORTS
 ***********/
@@ -93,6 +95,21 @@ p {
 
 .enviar {
   margin-top: 5%;
+}
+
+/*Smartphone*/
+@media (max-width: 480px) {
+  #tituloPrincipal {
+    font-size: 17px;
+    margin: 17px 0px;
+  }
+
+  #videoPrincipal {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 300px;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
