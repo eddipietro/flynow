@@ -1,7 +1,8 @@
-#IGNORANDO CARPETAS
-node_modules
-
-#IGNORANDO ARCHIVOS
+#****IGNORAR ARCHIVO****
 package-lock.json
 package.json
+#****IGNORAR CARPETA****
+node_modules
+
+
 
