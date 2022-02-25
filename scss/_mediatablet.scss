@@ -1,0 +1,21 @@
+/*TABLET*/
+
+ @media (min-width: 481px) and (max-width: 1023px){
+
+  #tituloPrincipal {
+    font-size: 23px;
+    margin: 17px 0px;
+  }
+  #videoPrincipal {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 400px;
+  }
+  #contenedorRegiones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}

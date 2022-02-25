@@ -1,28 +1,75 @@
+ /*********
+  IMPORTS
+ ***********/
+ @import "./imputs";
+ @import "./botones";
+ @import "./mixin";
+ @import "./maps";
+ @import "./_mediatablet";
+ @import "./_mediasmartphone";
+ @import "./nav";
 
-/*Comentario de scss*/
+
+
 * {
   margin: 0%;
   padding: 0%;
 }
 body{
   width: 100%;
-    background-image: "linear-gradient(to top, #380036 0%, #0cbaba 95%)"; 
-
-}
-main {
-  h1 {
-    margin: 0% 6%;
+  background-image: "linear-gradient(to top, #380036 0%, #0cbaba 95%)"; 
+  main {
+    h1 {
+      margin: 0% 6%;
+      color: azure;
+      font-size: 30px;
+      justify-content: center;
+      text-shadow:  0 1px #000,
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+    }
+    h2 {
+    @extend h1 ;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    padding: 10px;
+    background-image: "linear-gradient(to top, #380036 0%, #0cbaba 95%)";
     color: azure;
-    font-size: 30px;
-    justify-content: center;
-    text-shadow:  0 1px #000,
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
- }
   
+  }
+  
+.diametro {
+  margin: 50px;
 }
+
+.transicion {
+  transition: all 1s;
+  margin-bottom: 5%;
+}
+
+.transicion:hover {
+  width: 300px;
+  height: 300px;
+}
+.contenedorRegiones{
+   
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.redes {
+  box-shadow: 10px 5px 5px black;
+  border-radius: 50%;
+}
+ 
+  }
+}
+
+
 
 main {
   h2 {
@@ -37,17 +84,7 @@ main {
   
   }
   }
-  .diametro {
-    margin: 50px;
-  }
-  .transicion {
-    transition: all 1s;
-    margin-bottom: 5%;
-  }
-  .transicion:hover {
-    width: 300px;
-    height: 300px;
-  }
+  
   iframe {
     width: 100%;
     margin: 0.5% 3%;
@@ -55,16 +92,6 @@ main {
     height: 600px;
   }
   
-  .contenedorRegiones{
-   
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .redes {
-    box-shadow: 10px 5px 5px black;
-    border-radius: 50%;
-  }
   
   
   /*comentario*/
@@ -76,58 +103,9 @@ main {
   margin-left: auto;
 }
 
- /*********
-  IMPORTS
- ***********/
- @import "./imputs";
- @import "./botones";
- @import "./mixin";
- @import "./maps";
 
 
- /*TABLET*/
-
- @media (min-width: 481px) and (max-width: 1023px){
-
-  #tituloPrincipal {
-    font-size: 23px;
-    margin: 17px 0px;
-  }
-  #videoPrincipal {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 400px;
-  }
-  #contenedorRegiones {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-}
 
 
-  /*Smartphone*/
-
-  @media (max-width: 480px){
-
-    #tituloPrincipal {
-      font-size: 17px;
-      margin: 17px 0px;
-    }
-    #videoPrincipal {
-      margin: 0px;
-      padding: 0px;
-      width: 100%;
-      height: 300px;
-    }
-    #contenedorRegiones {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-}
 
 
