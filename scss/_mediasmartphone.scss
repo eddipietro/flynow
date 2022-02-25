@@ -1,7 +1,19 @@
  /*Smartphone*/
 
-  @media (max-width: 480px){
+  @media (min-width: 320px) and (max-width: 480px){
 
+    main {
+      .nosotros {
+        font-size: 20px;
+      } 
+      h1 {
+        font-size: 15px;
+      }
+    
+      h2 {
+        font-size: 20px;
+      }
+    
     #tituloPrincipal {
       font-size: 17px;
       margin: 17px 0px;
@@ -17,6 +29,11 @@
       flex-wrap: wrap;
       justify-content: center;
     }
-    
+    .terminos {
+      color: azure;
+      font-size: 10px;
+  }
   
+}
+
 }

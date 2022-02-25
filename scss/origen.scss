@@ -8,6 +8,8 @@
  @import "./_mediatablet";
  @import "./_mediasmartphone";
  @import "./nav";
+ @import "./footer";
+ @import "./id";
 
 
 
@@ -17,8 +19,17 @@
 }
 body{
   width: 100%;
-  background-image: "linear-gradient(to top, #380036 0%, #0cbaba 95%)"; 
+  background-image: linear-gradient(315deg, #380036 20%, #0cbaba 64%);
+
+
   main {
+    #videoPrincipal {
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 550px;
+      border-radius: 50px;
+    }
     h1 {
       margin: 0% 6%;
       color: azure;
@@ -65,7 +76,14 @@ body{
   box-shadow: 10px 5px 5px black;
   border-radius: 50%;
 }
- 
+.nosotros {
+  font-size: 20px;
+}
+.descripcionProvincias {
+  color: azure;
+  margin: 2%
+}
+
   }
 }
 
@@ -83,13 +101,6 @@ main {
     color: azure;
   
   }
-  }
-  
-  iframe {
-    width: 100%;
-    margin: 0.5% 3%;
-    border-radius: 50px;
-    height: 600px;
   }
   
   

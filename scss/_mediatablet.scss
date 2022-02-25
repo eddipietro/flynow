@@ -18,4 +18,34 @@
     justify-content: center;
   }
 
+  
+  #map {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 300px;
+  border-radius: 50px;
+  
+  }
+  div {
+
+    .columnaVideo {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+  }
+  #video {
+  border-radius: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height:100px;
+  margin-bottom: 5%;
+
+  } 
+
 }
