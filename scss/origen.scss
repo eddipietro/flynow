@@ -46,26 +46,27 @@ body{
     display: block;
     margin-top: 60px;
     margin-bottom: 30px;
-    font-size: 50px;
+    font-size: 35px;
     padding: 10px;
     background-image: "linear-gradient(to top, #380036 0%, #0cbaba 95%)";
     color: azure;
   
   }
   
-.diametro {
-  margin: 50px;
-}
 
-.transicion {
-  transition: all 1s;
-  margin-bottom: 5%;
-}
+  .diametro {
+    margin: 50px;
+  }
+  
+  .transicion {
+    transition: all 0.4s;
+    margin-bottom: 5%;
+  }
+  
+  .transicion:hover {
+    box-shadow: 11px 11px 12px black;
+  }
 
-.transicion:hover {
-  width: 300px;
-  height: 300px;
-}
 .contenedorRegiones{
    
   display: flex;

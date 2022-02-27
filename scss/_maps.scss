@@ -1,5 +1,5 @@
 $palabras:(
-    tamanio: 40px,
+    tamanio: 30px,
     color: #ffff,
     espacio: 5%, 
 );
@@ -9,6 +9,7 @@ $palabras:(
     font-size: map-get($map: $palabras, $key: tamanio);
     color: map-get($map: $palabras, $key: color);
     margin-top: map-get($map: $palabras, $key: espacio);
+    
 }
 
 
