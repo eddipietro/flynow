@@ -17,20 +17,22 @@
 
 <body class="container-fluid" >
   <!--HEADER-->
-  <header >
-    <nav class="navbar navbar-expand-lg navbar-dark  colorNav" aria-label="Ninth navbar example">
-      <div class="container-xl">
-        <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logoflynow.png" width="80px" height="80px" alt="logo de inicio"></a>
-            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-          </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark colorNav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logoflynow.png" width="80px"
+          height="80px" alt="logo de inicio"></a>
+      <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+        <use xlink:href="#bootstrap" />
+      </svg>
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-  
-        <div class="collapse navbar-collapse" id="navbarsExample07XL">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a href="../dondeir/dondeir.html" class="nav-link px-2 text-white">DONDE IR</a>
+              <a href="../dondeir/dondeir.html" class=" nav-link px-2 text-white ">DONDE IR</a>
             </li>
             <li class="nav-item">
               <a href="../organiza/organizatuviaje.html" class="nav-link px-2 text-white">ORGANIZÁ TU VIAJE</a>
@@ -39,109 +41,91 @@
               <a href="../footer/nosotros.html" class="nav-link px-2 text-white">NOSOTROS</a>
             </li>
           </ul>
-          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-            <input type="search" class="form-control form-control-dark" placeholder="🔎Buscar" aria-label="Search">
-          </form>
-  
-          <div class="text-end">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder=🔎Buscar aria-label="Search">
             <button type="button" class="btn btn-outline-light me-2"> <a href="../menu/iniciar.html"> Login</a></button>
-          </div>
-        </div>
-      </div>
-  
+          </form>
         </div>
       </div>
     </nav>
   </header>
  <!--MAIN-->
-      <main class="container-fluid">
-        <h1 class="animate__animated animate__pulse">Los Mejores destinos se encuentran en Argentina</h1>
-        <section class="container-fluid">
-          <h2 class="animate__animated animate__fadeInLeftBig">3 O MÁS PERSONAS</h2>
-          <h3 class="persona">Elegir Días <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-            width="35" height="35"
-            viewBox="0 0 172 172"
-            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M41.28,0c-3.7625,0 -6.88,3.1175 -6.88,6.88v6.88h-20.64c-1.3975,0 -2.92937,0.215 -4.39406,1.23625c-1.46469,1.02125 -2.48594,3.05031 -2.48594,4.93156v138.46c0,1.72 0.59125,3.48031 1.8275,4.75687c1.22281,1.29 3.02344,1.97531 4.77031,1.97531h145.04437c1.74688,0 3.5475,-0.68531 4.77031,-1.97531c1.23625,-1.27656 1.8275,-3.03687 1.8275,-4.75687v-138.46c0,-1.88125 -1.02125,-3.91031 -2.48594,-4.93156c-1.46469,-1.02125 -2.99656,-1.23625 -4.39406,-1.23625h-20.64v-6.88c0,-3.7625 -3.1175,-6.88 -6.88,-6.88h-6.88c-3.7625,0 -6.88,3.1175 -6.88,6.88v6.88h-61.92v-6.88c0,-3.7625 -3.1175,-6.88 -6.88,-6.88zM41.28,6.88h6.88v20.64h-6.88zM123.84,6.88h6.88v20.64h-6.88zM13.76,20.64h20.64v6.88c0,3.7625 3.1175,6.88 6.88,6.88h6.88c3.7625,0 6.88,-3.1175 6.88,-6.88v-6.88h61.92v6.88c0,3.7625 3.1175,6.88 6.88,6.88h6.88c3.7625,0 6.88,-3.1175 6.88,-6.88v-6.88h20.64v24.08h-144.48zM13.76,51.6h144.48v106.64h-144.48zM67.94,79.71125c-2.08281,0 -3.96406,0.37625 -5.63031,1.12875c-1.65281,0.73906 -3.06375,1.77375 -4.21937,3.09063c-1.16906,1.31687 -2.09625,2.87562 -2.76813,4.67625c-0.67187,1.80062 -1.04812,3.73562 -1.12875,5.84531h6.75906c-0.04031,-1.11531 0.08063,-2.19031 0.36281,-3.23844c0.26875,-1.06156 0.69875,-2.01562 1.26312,-2.84875c0.57781,-0.84656 1.29,-1.53187 2.16344,-2.02906c0.87344,-0.48375 1.89469,-0.72562 3.09062,-0.72562c1.89469,0 3.44,0.55094 4.63594,1.66625c1.20938,1.10187 1.81406,2.59344 1.81406,4.46125c0,1.31687 -0.26875,2.43219 -0.80625,3.34594c-0.52406,0.90031 -1.22281,1.6125 -2.09625,2.13656c-0.86,0.51062 -1.85437,0.87344 -2.95625,1.075c-1.10187,0.20156 -2.21719,0.29562 -3.31906,0.24187v5.2675c1.34375,-0.04031 2.66063,0 3.93719,0.13438c1.27656,0.12094 2.44562,0.43 3.46687,0.94062c1.02125,0.52406 1.85438,1.27656 2.48594,2.27094c0.63156,0.99437 0.95406,2.33812 0.95406,4.01781c0,2.48594 -0.77937,4.39406 -2.29781,5.73781c-1.51844,1.33031 -3.39969,2.00219 -5.65719,2.00219c-2.63375,0 -4.6225,-0.87344 -5.95281,-2.63375c-1.31687,-1.74687 -1.935,-3.93719 -1.85437,-6.58437h-6.75906c0.04031,2.27094 0.37625,4.32687 1.02125,6.19469c0.61813,1.85438 1.54531,3.44 2.74125,4.77031c1.20938,1.31687 2.71438,2.33812 4.515,3.06375c1.78719,0.71219 3.88344,1.075 6.28875,1.075c1.97531,0 3.85656,-0.30906 5.64375,-0.92719c1.77375,-0.61813 3.31906,-1.49156 4.67625,-2.63375c1.33031,-1.12875 2.40531,-2.51281 3.18469,-4.15219c0.79281,-1.62594 1.1825,-3.46687 1.1825,-5.53625c0,-2.80844 -0.65844,-5.18687 -1.97531,-7.14875c-1.33031,-1.96187 -3.17125,-3.19812 -5.53625,-3.68187v-0.13438c2.01562,-0.73906 3.49375,-1.92156 4.43437,-3.56094c0.95406,-1.62594 1.43781,-3.53406 1.43781,-5.72437c0,-1.89469 -0.38969,-3.57438 -1.12875,-5.03906c-0.76594,-1.47813 -1.74688,-2.67406 -2.99656,-3.62813c-1.23625,-0.95406 -2.64719,-1.66625 -4.20594,-2.16344c-1.55875,-0.49719 -3.14438,-0.7525 -4.77031,-0.7525zM100.99625,79.71125c-2.95625,0 -5.375,0.72563 -7.25625,2.15c-1.88125,1.41094 -3.3325,3.23844 -4.38062,5.44219c-1.04813,2.20375 -1.76031,4.63594 -2.13656,7.28313c-0.37625,2.63375 -0.56438,5.20031 -0.56438,7.67281c0,2.4725 0.18813,5.02562 0.56438,7.67281c0.37625,2.64719 1.08844,5.06594 2.13656,7.28313c1.04812,2.20375 2.49937,4.01781 4.38062,5.44219c1.88125,1.42438 4.3,2.13656 7.25625,2.13656c2.95625,0 5.375,-0.71219 7.25625,-2.13656c1.88125,-1.42437 3.3325,-3.23844 4.38063,-5.44219c1.04812,-2.21719 1.76031,-4.63594 2.12312,-7.28313c0.37625,-2.64719 0.57781,-5.20031 0.57781,-7.67281c0,-2.4725 -0.20156,-5.03906 -0.57781,-7.67281c-0.36281,-2.64719 -1.075,-5.07938 -2.12312,-7.28313c-1.04813,-2.20375 -2.49938,-4.03125 -4.38063,-5.44219c-1.88125,-1.42437 -4.3,-2.15 -7.25625,-2.15zM100.99625,85.61031c1.46469,0 2.6875,0.43 3.66844,1.31687c0.98094,0.90031 1.76031,2.09625 2.33813,3.62813c0.56437,1.53187 0.98094,3.29219 1.20937,5.29437c0.24188,2.00219 0.36281,4.13875 0.36281,6.40969c0,2.27094 -0.12094,4.42094 -0.36281,6.43656c-0.22844,2.02906 -0.645,3.78938 -1.20937,5.29438c-0.56438,1.505 -1.35719,2.70094 -2.33813,3.60125c-0.98094,0.88687 -2.20375,1.31687 -3.66844,1.31687c-1.505,0 -2.74125,-0.43 -3.70875,-1.31687c-0.95406,-0.90031 -1.73344,-2.09625 -2.31125,-3.60125c-0.56437,-1.505 -0.9675,-3.26531 -1.19594,-5.29438c-0.24188,-2.02906 -0.36281,-4.16562 -0.36281,-6.43656c0,-2.27094 0.12094,-4.4075 0.36281,-6.40969c0.22844,-2.00219 0.63156,-3.7625 1.19594,-5.29437c0.57781,-1.53188 1.34375,-2.72781 2.31125,-3.62813c0.9675,-0.88687 2.20375,-1.31687 3.70875,-1.31687z"></path></g></g></svg> </h3>
-          <select class="imput" name="dias"  >
-            <option value="Micro">Fin de Semana</option>
-            <option value="Tren">1 Semana</option>
-            <option value="Avion">15 Días</option>
-            <option value="Avion">1 Mes</option>
-          </select>
-          <button type="button" class="btn btn-outline-light me-2"> Agregar Días<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-            width="30" height="30"
-            viewBox="0 0 172 172"
-            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M86,6.88c-43.65603,0 -79.12,35.46397 -79.12,79.12c0,43.65603 35.46397,79.12 79.12,79.12c43.65603,0 79.12,-35.46397 79.12,-79.12c0,-43.65603 -35.46397,-79.12 -79.12,-79.12zM86,13.76c39.93779,0 72.24,32.30221 72.24,72.24c0,39.93779 -32.30221,72.24 -72.24,72.24c-39.93779,0 -72.24,-32.30221 -72.24,-72.24c0,-39.93779 32.30221,-72.24 72.24,-72.24zM85.94625,58.43297c-1.89722,0.02966 -3.41223,1.58976 -3.38625,3.48703v20.64h-20.64c-1.24059,-0.01754 -2.39452,0.63425 -3.01993,1.7058c-0.62541,1.07155 -0.62541,2.39684 0,3.46839c0.62541,1.07155 1.77935,1.72335 3.01993,1.7058h20.64v20.64c-0.01754,1.24059 0.63425,2.39452 1.7058,3.01993c1.07155,0.62541 2.39684,0.62541 3.46839,0c1.07155,-0.62541 1.72335,-1.77935 1.7058,-3.01993v-20.64h20.64c1.24059,0.01754 2.39452,-0.63425 3.01993,-1.7058c0.62541,-1.07155 0.62541,-2.39684 0,-3.46839c-0.62541,-1.07155 -1.77935,-1.72335 -3.01993,-1.7058h-20.64v-20.64c0.01273,-0.92983 -0.35149,-1.82522 -1.00967,-2.48214c-0.65819,-0.65692 -1.55427,-1.01942 -2.48408,-1.00489z"></path></g></g></svg></button> 
-          <h3 class="persona">Elegir Transporte <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-            width="35" height="35"
-            viewBox="0 0 172 172"
-            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M148.0275,37.84c-1.06156,0.01344 -2.21719,0.1075 -3.3325,0.215c-4.48812,0.41656 -9.39281,1.53188 -14.405,3.7625c0,0 -19.29625,8.66719 -35.26,15.8025l-38.8075,-11.9325c-2.59344,-0.79281 -5.40187,-1.14219 -8.0625,-1.1825c-2.66062,-0.04031 -5.06594,0.18813 -7.31,1.1825l-5.375,2.365c-0.90031,0.40313 -1.98875,1.04813 -2.58,2.365c-0.59125,1.31688 -0.41656,2.91594 0.1075,3.9775c1.02125,2.06938 2.6875,3.14438 5.0525,4.4075l0.1075,0.1075l22.79,13.8675c-11.47562,5.13313 -27.00937,12.09375 -27.8425,12.47c-0.72562,0.3225 -0.72562,0.20156 -1.29,0c-0.56437,-0.20156 -1.58562,-0.84656 -2.9025,-1.8275c-4.66281,-3.44 -11.55625,-8.45219 -13.545,-9.9975c-3.06375,-2.33812 -6.70531,-2.365 -9.9975,-1.29c-1.63937,0.5375 -3.30562,1.43781 -4.4075,3.225c-1.10187,1.78719 -1.24969,4.38063 -0.3225,6.45c2.29781,5.16 9.55406,21.12375 12.255,27.1975c1.46469,3.29219 4.52844,5.56313 8.2775,6.5575c3.74906,0.99438 8.26406,0.95406 13.6525,0.215c10.77688,-1.49156 25.27594,-6.15437 43.5375,-14.2975c1.43781,-0.645 3.09063,-1.35719 4.6225,-2.0425l-7.955,42.0325v0.215c-0.63156,2.56656 -0.95406,4.54188 -0.1075,6.665c0.44344,1.08844 1.53188,2.24406 2.9025,2.6875c1.37063,0.44344 2.53969,0.17469 3.44,-0.215l5.375,-2.365c2.23063,-0.99437 4.05813,-2.71437 5.805,-4.73c1.74688,-2.01562 3.38625,-4.42094 4.515,-6.88h-0.1075l25.585,-55.3625c12.76563,-5.97969 25.02063,-11.9325 33.97,-16.985c4.60906,-2.60687 8.385,-4.97187 11.0725,-7.095c1.34375,-1.06156 2.365,-2.02906 3.225,-3.225c0.86,-1.19594 1.80063,-3.15781 0.86,-5.2675c-2.13656,-4.78375 -7.48469,-8.33125 -14.7275,-10.105c-2.71437,-0.65844 -5.61687,-1.02125 -8.815,-0.9675zM148.0275,44.72c2.63375,0 5.0525,0.33594 7.2025,0.86c4.95844,1.20938 7.98188,3.62813 9.245,5.2675c-0.34937,0.36281 -0.60469,0.645 -1.29,1.1825c-2.13656,1.69313 -5.64375,3.93719 -10.105,6.45c-8.90906,5.02563 -21.47312,11.16656 -34.615,17.3075l-1.1825,0.5375l-0.5375,1.1825l-26.1225,56.545c-0.79281,1.73344 -1.98875,3.61469 -3.3325,5.16c-1.34375,1.54531 -2.9025,2.66063 -3.44,2.9025l-2.15,0.9675v-0.1075l9.1375,-48.6975l1.29,-6.45l-6.02,2.6875c-3.72219,1.66625 -7.24281,3.26531 -10.535,4.73c-17.91219,7.98188 -31.94094,12.42969 -41.6025,13.76c-4.82406,0.67188 -8.57312,0.52406 -10.965,-0.1075c-2.39187,-0.63156 -3.34594,-1.51844 -3.87,-2.6875c-2.71437,-6.07375 -9.86312,-22.05094 -12.1475,-27.1975c-0.05375,-0.13437 -0.08062,-0.08062 -0.1075,-0.1075c0.12094,-0.09406 0.34938,-0.22844 0.645,-0.3225c1.1825,-0.38969 3.35938,0.09406 3.655,0.3225v-0.1075c2.24406,1.73344 8.97625,6.7725 13.6525,10.2125c1.37063,1.00781 2.75469,2.10969 4.6225,2.795c1.86781,0.68531 4.3,0.645 6.45,-0.3225c0.98094,-0.43 18.23469,-8.19687 33.11,-14.835c0.12094,-0.05375 0.20156,0.05375 0.3225,0c0.33594,-0.09406 0.67188,-0.24187 0.9675,-0.43c0.05375,-0.02687 0.05375,-0.08062 0.1075,-0.1075c0.04031,-0.04031 0.06719,-0.06719 0.1075,-0.1075c11.46219,-5.10625 13.41063,-5.99312 25.0475,-11.18c0.1075,-0.02687 0.215,-0.06719 0.3225,-0.1075c0.04031,-0.01344 0.06719,0.01344 0.1075,0c0.72563,-0.08062 1.3975,-0.37625 1.935,-0.86c0.04031,-0.04031 0.06719,-0.06719 0.1075,-0.1075c15.81594,-7.04125 35.045,-15.5875 35.045,-15.5875c4.35375,-1.935 8.53281,-2.98312 12.255,-3.3325c0.92719,-0.08062 1.81406,-0.1075 2.6875,-0.1075zM48.0525,51.385c2.0425,0.04031 4.3,0.29563 6.1275,0.86l31.39,9.5675c-8.23719,3.68188 -9.08375,4.04469 -16.8775,7.525l-27.09,-16.4475l2.0425,-0.9675c0.5375,-0.24187 2.365,-0.57781 4.4075,-0.5375z"></path></g></g></svg></h3>
-          <select class="imput" name="transporte" >
-            <option value="Micro">Micro</option>
-            <option value="Tren">Tren</option>
-            <option value="Avion">Avion</option>
-          </select>
-          <h3 class="persona">Salida <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-            width="35" height="35"
-            viewBox="0 0 172 172"
-            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M123.84,6.88c-9.46,0 -17.2,7.74 -17.2,17.2c0,9.46 7.74,17.2 17.2,17.2c9.46,0 17.2,-7.74 17.2,-17.2c0,-9.46 -7.74,-17.2 -17.2,-17.2zM123.84,13.76c5.73781,0 10.32,4.58219 10.32,10.32c0,5.73781 -4.58219,10.32 -10.32,10.32c-5.73781,0 -10.32,-4.58219 -10.32,-10.32c0,-5.73781 4.58219,-10.32 10.32,-10.32zM105.8875,41.28c-4.945,0 -9.64812,2.52625 -12.3625,6.665l-26.5525,40.635c-0.04031,0.04031 -0.06719,0.06719 -0.1075,0.1075c-2.10969,3.37281 -1.76031,7.60563 0.5375,10.6425l-6.9875,10.105l-11.2875,-7.8475c-2.21719,-1.54531 -4.91812,-2.05594 -7.4175,-1.6125c-2.49937,0.44344 -4.79719,1.86781 -6.3425,4.085l-19.4575,27.8425c-3.80281,5.46906 -2.35156,13.07469 3.1175,16.8775l5.375,3.7625c-0.17469,0.73906 -0.3225,1.46469 -0.3225,2.2575c0,5.65719 4.66281,10.32 10.32,10.32c5.65719,0 10.32,-4.66281 10.32,-10.32c0,-2.58 -0.98094,-4.95844 -2.58,-6.7725l21.3925,-31.175c0.43,-0.37625 0.76594,-0.86 0.9675,-1.3975l8.7075,-12.5775c3.64156,0.67188 7.51156,-0.72562 9.675,-3.9775c0.01344,-0.01344 -0.01344,-0.09406 0,-0.1075h0.1075l11.5025,-16.6625l-1.075,5.59c-0.94062,4.99875 -0.48375,10.11844 1.1825,14.835l-5.375,18.8125l-18.8125,28.595c-2.75469,4.1925 -1.88125,9.87656 2.0425,13.0075c4.28656,3.42656 10.68281,2.58 13.975,-1.8275l20.1025,-26.7675c0.13438,-0.20156 0.24188,-0.41656 0.3225,-0.645l2.2575,-5.16l18.3825,31.39c1.85438,3.17125 5.24063,5.16 8.9225,5.16c7.33688,0 12.40281,-7.79375 9.46,-14.5125l-22.145,-50.525l1.935,-9.9975l17.7375,14.5125c3.81625,3.10406 9.51375,2.58 12.685,-1.1825c3.21156,-3.81625 2.75469,-9.59437 -1.075,-12.7925l-19.0275,-15.91l-5.375,-15.48c-1.075,-9.86312 -9.50031,-17.9525 -19.995,-17.9525zM105.8875,48.16h4.73c6.78594,0 12.08031,4.93156 13.0075,11.18c-0.01344,0.44344 0.06719,0.87344 0.215,1.29c0.05375,1.02125 -0.01344,2.05594 -0.215,3.1175l-6.88,36.12c-0.12094,0.65844 -0.04031,1.33031 0.215,1.935l22.575,51.6c1.06156,2.40531 -0.48375,4.8375 -3.1175,4.8375c-1.23625,0 -2.39187,-0.645 -3.01,-1.72l-21.5,-36.765c0,-0.04031 0,-0.06719 0,-0.1075l-0.1075,-0.215c-0.12094,-0.18812 -0.26875,-0.37625 -0.43,-0.5375l-8.6,-14.835c-0.38969,-0.67187 -0.76594,-1.34375 -1.075,-2.0425c-0.05375,-0.5375 -0.24187,-1.04812 -0.5375,-1.505c-0.01344,-0.02687 0.01344,-0.08062 0,-0.1075c-0.04031,-0.04031 -0.06719,-0.06719 -0.1075,-0.1075c-1.26312,-3.60125 -1.57219,-7.47125 -0.86,-11.2875l3.9775,-21.3925c0.3225,-1.6125 -0.5375,-3.225 -2.05594,-3.84312c-1.51844,-0.63156 -3.26531,-0.09406 -4.17906,1.26312l-20.64,29.9925c-0.04031,0.04031 -0.06719,0.06719 -0.1075,0.1075c-0.84656,1.31688 -2.48594,1.55875 -3.7625,0.645c-1.15562,-0.83312 -1.505,-2.23062 -0.7525,-3.44l26.66,-40.635c1.43781,-2.20375 3.92375,-3.5475 6.5575,-3.5475zM128.57,74.4975l1.1825,3.3325c0.215,0.59125 0.59125,1.11531 1.075,1.505l19.78,16.555c0.9675,0.81969 1.03469,2.15 0.215,3.1175c-0.80625,0.95406 -2.15,1.00781 -3.1175,0.215l-20.3175,-16.555c-0.1075,-0.08062 -0.215,-0.14781 -0.3225,-0.215zM42.8925,106.64c0.7525,-0.13437 1.55875,0.05375 2.2575,0.5375l11.395,7.955l-20.425,29.5625c-0.56437,-0.09406 -1.12875,-0.215 -1.72,-0.215c-2.41875,0 -4.67625,0.83313 -6.45,2.2575l-5.0525,-3.5475c-2.41875,-1.67969 -2.96969,-4.89125 -1.29,-7.31l19.35,-27.95c0.48375,-0.69875 1.1825,-1.15562 1.935,-1.29zM99.115,111.4775l5.805,9.7825l-3.9775,9.03l-0.1075,0.1075l-19.8875,26.66c-1.00781,1.35719 -2.86219,1.59906 -4.1925,0.5375c-1.19594,-0.95406 -1.49156,-2.58 -0.645,-3.87l19.0275,-29.025c0.18813,-0.26875 0.3225,-0.55094 0.43,-0.86zM34.4,151.36c0.1075,0 0.215,-0.01344 0.3225,0c0.57781,0.67188 1.38406,1.08844 2.2575,1.1825c0.52406,0.60469 0.86,1.37063 0.86,2.2575c0,1.935 -1.505,3.44 -3.44,3.44c-1.935,0 -3.44,-1.505 -3.44,-3.44c0,-1.935 1.505,-3.44 3.44,-3.44z"></path></g></g></svg></h3>
-          <select class="imput"  name="salida" >
-            <option class="fondito" value="Ciudad de Buenos Aires">Ciudad de Buenos Aires</option>
-            <option value="Catamarca">Catamarca</option>
-            <option value="Chaco">Chaco</option>
-            <option value="Córdoba">Córdoba</option>
-            <option value="Corrientes">Corrientes</option>
-            <option value="Entre Ríos">Entre Ríos</option>
-            <option value="Formosa">Formosa</option>
-            <option value="Jujuy">Jujuy</option>
-            <option value="La Pampa">La Pampa</option>
-            <option value="La Rioja">La Rioja</option>
-            <option value="Mendoza">Mendoza</option>
-            <option value="Misiones">Misiones</option>
-            <option value="Neuquén">Neuquén</option>
-            <option value="Río Negro">Río Negro</option>
-            <option value="Salta">Salta</option>
-            <option value="San Juan">San Juan</option>
-            <option value="San Luis">San Luis</option>
-            <option value="Santa Cruz">Santa Cruz</option>
-            <option value="Santa Fé">Santa Fe</option>
-            <option value="Santiago del Estero">Santiago del Estero</option>
-            <option value="Tierra del Fuego">Tierra del Fuego</option>
-            <option value="Tucumán">Tucumán</option>
-          </select>
-          <h3 class="persona">Destinos <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-            width="35" height="35"
-            viewBox="0 0 172 172"
-            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M71.595,6.88c-0.51062,0.1075 -0.98094,0.3225 -1.3975,0.645l-61.92,44.72c-1.1825,0.83313 -1.70656,2.32469 -1.33031,3.72219c0.38969,1.3975 1.6125,2.40531 3.05031,2.51281l37.84,3.44c0.1075,0 0.215,0 0.3225,0h20.64v34.4l6.88,5.6975v-40.0975h20.64c0.1075,0 0.215,0 0.3225,0l37.84,-3.44c1.43781,-0.1075 2.66063,-1.11531 3.05031,-2.51281c0.37625,-1.3975 -0.14781,-2.88906 -1.33031,-3.72219l-61.92,-44.72c-0.76594,-0.57781 -1.74687,-0.81969 -2.6875,-0.645zM72.24,18.06l18.49,36.98h-36.98zM62.8875,21.285l-16.77,33.54l-26.23,-2.365zM81.7,21.3925l42.8925,31.0675l-26.23,2.365zM142.76,75.68c-8.50594,0 -15.48,6.97406 -15.48,15.48c0,2.09625 0.41656,4.085 1.1825,5.9125c-2.83531,-2.71437 -6.75906,-4.12531 -10.6425,-3.87c-1.78719,0.12094 -3.57437,0.645 -5.2675,1.505l-34.7225,17.5225l-11.9325,-9.89c-1.92156,-1.59906 -4.27312,-2.48594 -6.665,-2.58c-2.39187,-0.09406 -4.8375,0.59125 -6.88,2.0425l-16.555,11.7175h-8.2775c-5.65719,0 -10.32,4.66281 -10.32,10.32c0,1.20938 0.25531,2.35156 0.645,3.44h-7.525c-0.1075,0 -0.215,0 -0.3225,0c-1.77375,0.16125 -3.13094,1.65281 -3.1175,3.44v13.76c0,1.89469 1.54531,3.44 3.44,3.44h6.88v13.76c0,1.89469 1.54531,3.44 3.44,3.44h13.76c1.89469,0 3.44,-1.54531 3.44,-3.44v-13.76h96.32v13.76c0,1.89469 1.54531,3.44 3.44,3.44h13.76c1.89469,0 3.44,-1.54531 3.44,-3.44v-13.76h6.88c1.89469,0 3.44,-1.54531 3.44,-3.44v-13.76c0,-1.89469 -1.54531,-3.44 -3.44,-3.44h-7.74l-5.375,-18.92l10.75,-5.375c1.80063,-0.43 2.94281,-2.19031 2.59344,-4.00437c-0.34937,-1.81406 -2.05594,-3.03688 -3.88344,-2.76813c-0.215,0.01344 -0.43,0.05375 -0.645,0.1075c0.57781,-1.6125 0.86,-3.35937 0.86,-5.16c0,-8.50594 -6.97406,-15.48 -15.48,-15.48zM142.76,82.56c4.78375,0 8.6,3.81625 8.6,8.6c0,4.78375 -3.81625,8.6 -8.6,8.6c-4.78375,0 -8.6,-3.81625 -8.6,-8.6c0,-4.78375 3.81625,-8.6 8.6,-8.6zM118.3575,100.0825c0.91375,-0.06719 1.84094,0.05375 2.6875,0.3225c1.67969,0.55094 3.10406,1.70656 3.9775,3.44c1.74688,3.45344 0.44344,7.60563 -3.01,9.3525l-27.95,14.0825h-66.5425c-1.94844,0 -3.44,-1.49156 -3.44,-3.44c0,-1.94844 1.49156,-3.44 3.44,-3.44h8.17c0.65844,0.20156 1.38406,0.20156 2.0425,0h38.485c0.55094,0.02688 1.11531,-0.08062 1.6125,-0.3225l0.43,-0.215h0.1075c0.43,-0.13437 0.83313,-0.34937 1.1825,-0.645l0.1075,-0.1075c0.06719,-0.02687 0.14781,-0.06719 0.215,-0.1075l35.7975,-18.1675c0.86,-0.44344 1.77375,-0.68531 2.6875,-0.7525zM131.58,101.8025c1.78719,1.86781 4.04469,3.27875 6.5575,4.085l-5.6975,2.795c0.28219,-2.28437 0.05375,-4.63594 -0.86,-6.88zM58.91,106.64c0.91375,0.04031 1.84094,0.34938 2.58,0.9675l7.095,5.9125h-20.855l8.6,-6.1275c0.77938,-0.55094 1.66625,-0.79281 2.58,-0.7525zM142.2225,111.585l4.515,15.695h-35.7975zM13.76,134.16h144.48v6.88h-144.48zM24.08,147.92h6.88v10.32h-6.88zM141.04,147.92h6.88v10.32h-6.88z"></path></g></g></svg></h3>
-          <select class="imput" name="destinos" >
-            <option value="Ciudad de Buenos Aires">Ciudad de Buenos Aires</option>
-            <option value="Catamarca">Catamarca</option>
-            <option value="Chaco">Chaco</option>
-            <option value="Córdoba">Córdoba</option>
-            <option value="Corrientes">Corrientes</option>
-            <option value="Entre Ríos">Entre Ríos</option>
-            <option value="Formosa">Formosa</option>
-            <option value="Jujuy">Jujuy</option>
-            <option value="La Pampa">La Pampa</option>
-            <option value="La Rioja">La Rioja</option>
-            <option value="Mendoza">Mendoza</option>
-            <option value="Misiones">Misiones</option>
-            <option value="Neuquén">Neuquén</option>
-            <option value="Río Negro">Río Negro</option>
-            <option value="Salta">Salta</option>
-            <option value="San Juan">San Juan</option>
-            <option value="San Luis">San Luis</option>
-            <option value="Santa Cruz">Santa Cruz</option>
-            <option value="Santa Fé">Santa Fe</option>
-            <option value="Santiago del Estero">Santiago del Estero</option>
-            <option value="Tierra del Fuego">Tierra del Fuego</option>
-            <option value="Tucumán">Tucumán</option>
-          </select>
-          
-          <div>
-          <input class="btn btn-outline-light me-2 enviar" type="submit" value="Enviar">
-          </div>
-        
+ <main class="container-fluid">
+  <h1 class="animate__animated animate__pulse">Los Mejores destinos se encuentran en Argentina</h1>
+  
+  <section class="container-fluid" >
+    <h2 class="animate__animated animate__fadeInLeftBig">1 PERSONA</h2>
+    <h3 class="persona">Elegir Días <img src="https://img.icons8.com/small/32/000000/calendar-27.png"/></h3>
+    <select class="imput" name="dias"  >
+      <option value="Micro">Fin de Semana</option>
+      <option value="Tren">1 Semana</option>
+      <option value="Avion">15 Días</option>
+      <option value="Avion">1 Mes</option>
+    </select>
+    <button type="button" class="btn btn-outline-light me-2"> Agregar Días<img src="https://img.icons8.com/small/32/000000/add.png"/></button> 
+    <h3 class="persona ">Elegir Transporte <img src="https://img.icons8.com/small/32/000000/airplane-take-off.png"/></h3>
+    <select class="imput" name="transporte" >
+      <option value="Micro">Micro</option>
+      <option value="Tren">Tren</option>
+      <option value="Avion">Avion</option>
+    </select>
+    <h3 class="persona">Salida <img src="https://img.icons8.com/ios/32/000000/passenger-with-baggage.png"/></h3>
+    <select class="imput"  name="salida" >
+      <option class="fondito" value="Ciudad de Buenos Aires">Ciudad de Buenos Aires</option>
+      <option value="Catamarca">Catamarca</option>
+      <option value="Chaco">Chaco</option>
+      <option value="Córdoba">Córdoba</option>
+      <option value="Corrientes">Corrientes</option>
+      <option value="Entre Ríos">Entre Ríos</option>
+      <option value="Formosa">Formosa</option>
+      <option value="Jujuy">Jujuy</option>
+      <option value="La Pampa">La Pampa</option>
+      <option value="La Rioja">La Rioja</option>
+      <option value="Mendoza">Mendoza</option>
+      <option value="Misiones">Misiones</option>
+      <option value="Neuquén">Neuquén</option>
+      <option value="Río Negro">Río Negro</option>
+      <option value="Salta">Salta</option>
+      <option value="San Juan">San Juan</option>
+      <option value="San Luis">San Luis</option>
+      <option value="Santa Cruz">Santa Cruz</option>
+      <option value="Santa Fé">Santa Fe</option>
+      <option value="Santiago del Estero">Santiago del Estero</option>
+      <option value="Tierra del Fuego">Tierra del Fuego</option>
+      <option value="Tucumán">Tucumán</option>
+    </select>
+    <h3 class="persona">Destinos <img src="https://img.icons8.com/ios/32/000000/sunbathe.png"/></h3>
+    <select class="imput" name="destinos" >
+      <option value="Ciudad de Buenos Aires">Ciudad de Buenos Aires</option>
+      <option value="Catamarca">Catamarca</option>
+      <option value="Chaco">Chaco</option>
+      <option value="Córdoba">Córdoba</option>
+      <option value="Corrientes">Corrientes</option>
+      <option value="Entre Ríos">Entre Ríos</option>
+      <option value="Formosa">Formosa</option>
+      <option value="Jujuy">Jujuy</option>
+      <option value="La Pampa">La Pampa</option>
+      <option value="La Rioja">La Rioja</option>
+      <option value="Mendoza">Mendoza</option>
+      <option value="Misiones">Misiones</option>
+      <option value="Neuquén">Neuquén</option>
+      <option value="Río Negro">Río Negro</option>
+      <option value="Salta">Salta</option>
+      <option value="San Juan">San Juan</option>
+      <option value="San Luis">San Luis</option>
+      <option value="Santa Cruz">Santa Cruz</option>
+      <option value="Santa Fé">Santa Fe</option>
+      <option value="Santiago del Estero">Santiago del Estero</option>
+      <option value="Tierra del Fuego">Tierra del Fuego</option>
+      <option value="Tucumán">Tucumán</option>
+    </select>
+    
+    <div>
+    <input class="btn btn-outline-light me-2 enviar" type="submit" value="Enviar">
+    </div>
+  
+  
+  
         
         
           <h3 class="persona">Las opciones de viajes que le recomendamos nosotros segun sus filtros</h3>

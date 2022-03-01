@@ -19,9 +19,9 @@
 }
 body{
   width: 100%;
-  background-image: linear-gradient(315deg, #380036 20%, #0cbaba 64%);
-
-
+  background-color: #e7eff9;
+  background-image: linear-gradient(to top, #e7eff9 0%, #cfd6e6 74%);
+  
   main {
     #videoPrincipal {
       margin: 0px;
@@ -31,7 +31,8 @@ body{
       border-radius: 50px;
     }
     h1 {
-      margin: 0% 6%;
+      margin-top: 10%;
+      margin-left: 5%;
       color: azure;
       font-size: 30px;
       justify-content: center;
@@ -48,12 +49,17 @@ body{
     margin-bottom: 30px;
     font-size: 35px;
     padding: 10px;
-    background-image: "linear-gradient(to top, #380036 0%, #0cbaba 95%)";
+    background-color: #04619f;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 0%);
     color: azure;
   
   }
   
 
+  .carrousel {
+    width: 100%;
+    height: 700px;
+  }
   .diametro {
     margin: 50px;
   }
@@ -68,7 +74,6 @@ body{
   }
 
 .contenedorRegiones{
-   
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -81,7 +86,7 @@ body{
   font-size: 20px;
 }
 .descripcionProvincias {
-  color: azure;
+  color: #000000;
   margin: 2%
 }
 
@@ -103,8 +108,6 @@ main {
   
   }
   }
-  
-  
   
   /*comentario*/
   p {
