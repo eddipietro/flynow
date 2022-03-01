@@ -49,6 +49,10 @@
 
 /*TABLET*/
 @media (min-width: 481px) and (max-width: 1023px) {
+  main {
+    margin-top: 20%;
+  }
+
   #tituloPrincipal {
     font-size: 23px;
     margin: 17px 0px;
@@ -119,6 +123,10 @@
     color: azure;
     font-size: 10px;
   }
+  main .carrousel {
+    width: 100%;
+    height: 400px;
+  }
 }
 .colorNav {
   background-color: #04619f;
@@ -178,7 +186,7 @@ body main #videoPrincipal {
   border-radius: 50px;
 }
 body main h1, body main h2 {
-  margin-top: 10%;
+  margin-top: 30%;
   margin-left: 5%;
   color: azure;
   font-size: 30px;
