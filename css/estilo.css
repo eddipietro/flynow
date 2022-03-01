@@ -50,7 +50,7 @@
 /*TABLET*/
 @media (min-width: 481px) and (max-width: 1023px) {
   main {
-    margin-top: 20%;
+    margin-top: 150px;
   }
 
   #tituloPrincipal {
@@ -98,10 +98,14 @@
 }
 /*Smartphone*/
 @media (min-width: 320px) and (max-width: 480px) {
+  main {
+    margin-top: 130px;
+  }
   main .nosotros {
     font-size: 20px;
   }
   main h1, main h2, body main h2 {
+    margin-top: 20%;
     font-size: 15px;
   }
   main #tituloPrincipal {
@@ -186,7 +190,7 @@ body main #videoPrincipal {
   border-radius: 50px;
 }
 body main h1, body main h2 {
-  margin-top: 30%;
+  margin-top: 10%;
   margin-left: 5%;
   color: azure;
   font-size: 30px;
