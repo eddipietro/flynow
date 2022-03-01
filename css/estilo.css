@@ -131,6 +131,10 @@
     width: 100%;
     height: 400px;
   }
+  main #video {
+    height: 300px;
+    margin-bottom: 5%;
+  }
 }
 .colorNav {
   background-color: #04619f;
