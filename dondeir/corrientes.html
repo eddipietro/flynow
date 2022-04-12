@@ -6,247 +6,353 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>FlyNow</title>
+    
+    <meta name="keywords" content="flynow, viajar, oferta, argentina, provincia, turismo, vuelo, gratis">
+    <meta name="description" content="Explora Corrientesa de la mano de Flynow"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>FlyNow, Corrientes es una provincia en el noreste subtropical de Argentina, Los Esteros del Iberá, un área inmensa de lagos y humedales que alberga yacarés, anacondas, carpinchos y más de 350 especies de aves, es un destino popular para el ecoturismo</title>
 </head>
 
-<body>
-    <header>
-        <div>
-            <nav>
-                <section><a class="logo" href="../index.html"> <button id="logo" type="button"> <img src="../img/logoflynow.png" height="120px"
-                    width="120" /> </a> </button>  </section>                          
-                                    
-                    <ul class="buscar">
-                        <li class="dondeIr"> <a href="./dondeir.html">Dónde Ir</a>
-                        <ul class="provincias">
-                            <li> <a href="./buenosaires.html">Buenos Aires</a></li>
-                            <li> <a href="./capitalfederal.html">Capital Federal</a></li>
-                            <li> <a href="./catamarca.html">Catamarca</a></li>
-                            <li> <a href="./chaco.html">Chaco</a></li>
-                            <li> <a href="./cordoba.html">Córdoba</a></li>
-                            <li> <a href="./corrientes.html">Corrientes</a></li>
-                            <li> <a href="./entrerios.html">Entre Ríos</a></li>
-                            <li> <a href="./formosa.html">Formosa</a></li>
-                            <li> <a href="./jujuy.html">Jujuy</a></li>
-                            <li> <a href="./lapampa.html">La Pampa</a></li>
-                            <li> <a href="./larioja.html">La Rioja</a></li>
-                            <li> <a href="./mendoza.html">Mendoza</a></li>
-                            <li> <a href="./misiones.html">Misiones</a></li>
-                            <li> <a href="./neuquen.html">Neuquén</a></li>
-                            <li> <a href="./rionegro.html">Río Negro</a></li>
-                            <li> <a href="./salta.html">Salta</a></li>
-                            <li> <a href="./sanjuan.html">San Juan</a></li>
-                            <li> <a href="./sanluis.html">San Luis</a></li>
-                            <li> <a href="./santacruz.html">Santa Cruz</a></li>
-                            <li> <a href="./santafe.html">Santa Fé</a></li>
-                            <li> <a href="./santiagodelestero.html">Santiago del Estero</a></li>
-                            <li> <a href="./tierradelfuego.htlm.html">Tierra del Fuego</a></li>
-                            <li> <a href="./tucuman.html">Tucumán</a></li>
-
-                        </ul>
-                    </li>
-
-                        <li class="organizaTuViaje"> <a href="../organizá/organizatuviaje.html">Organizá tu Viaje</a>
-                        <ul class="grupos">
-                            <li> <a href="../organizá/grupo1.html">Grupo 1</a></li>
-                            <li> <a href="../organizá/grupo2.html">Grupo 2</a></li>
-                            <li> <a href="../organizá/grupo3.html">Grupo 3</a></li>
-                        </ul>
-                    </li>
-
-                        <li class="idioma"> <a href="../idioma/idioma.html">🌐</a>
-                        <ul class="elegir">
-                            <li> <a href="../idioma/idioma.html">Español</a></li>
-                            <li> <a href="../idioma/idioma.html">English</a></li>
-                            <li> <a href="../idioma/idioma.html">French</a></li>
-                            <li> <a href="../idioma/idioma.html">Portugues</a></li>
-
-                        </ul>
-                    </li>
-
-
-                        <input class="botonFavorito" type="button" width="20px" height="20px" value="♡">
-                        <input class="botonBusqueda" type="button" width="20px" height="20px" value="🔎">
-
-
-
-                        <li class="buscar"> <a href="../menu/menu.html">☰</a>
-                        <ul class="personal">
-                            <li> <a href="../menu/micuenta.html">Mi Cuenta</a></li>
-                            <li> <a href="../menu/misviajes.html">Mis Viajes</a></li>
-                            <li> <a href="../menu/mensajes.html">Mensajes</a></li>
-                            <li> <a href="../menu/ayuda.html">Ayuda</a></li>
-                            <li> <a href="../menu/cerrarsesion.html">Cerrar Sesión</a></li>
-                        </ul>
-                    </li>
-
-                        <a href="../index.html"> <button id="perfil" type="button"> <img src="../img/perfil.png" height="50px"
-                                    width="50" /> </a> </button>
-            
-            </nav>
+<body class="container-fluid">
+  <!--HEADER-->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark colorNav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logoflynow.png" width="80px"
+          height="80px" alt="logo de inicio"></a>
+      <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+        <use xlink:href="#bootstrap" />
+      </svg>
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a href="../dondeir/dondeir.html" class=" nav-link px-2 text-white ">DONDE IR</a>
+            </li>
+            <li class="nav-item">
+              <a href="../organiza/organizatuviaje.html" class="nav-link px-2 text-white">ORGANIZÁ TU VIAJE</a>
+            </li>
+            <li class="nav-item">
+              <a href="../footer/nosotros.html" class="nav-link px-2 text-white">NOSOTROS</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder=🔎Buscar aria-label="Search">
+            <button type="button" class="btn btn-outline-light me-2"> <a href="../menu/iniciar.html"> Login</a></button>
+          </form>
         </div>
-    </header>
+      </div>
+    </nav>
+  </header>
+      
+ <!--MAIN-->
+      <main class="container-fluid" >
+        <h1 class="animate__animated animate__pulse ">CORRIENTES</h1>
+        <div class="container">
+          <div class="row align-items-start">
+            <div class="col">
+              <p class="descripcionProvincias animate__animated animate__pulse">Corrientes es una provincia en el noreste subtropical de Argentina, 
+                delimitada por los ríos Paraná y Uruguay. Los Esteros del Iberá, 
+                  un área inmensa de lagos y humedales que alberga yacarés, anacondas, 
+                  carpinchos y más de 350 especies de aves, es un destino popular para el ecoturismo. 
+                    La región es conocida por la pesca con mosca del dorado, 
+                    y algunas de sus estancias (haciendas) ofrecen alojamiento.</p>
+              
+            </div>
+            <div class="columnaVideo">
+              <iframe id="video" src="https://www.youtube.com/embed/linzmd7mAiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          </div>
+          <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3574254.1075961892!2d-59.91581098568297!3d-28.973069221315697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x944c8bac9250a9b3%3A0x8b73833857e37d0d!2sCorrientes!5e0!3m2!1ses-419!2sar!4v1644332771486!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <h2>LUGARES</h2>
 
-    <section class="ciudad" >
-        <h1>CORRIENTES</h1>
-    </section>
-    <section class="descripcion">
-        <p>La Provincia del Chaco ​ o Chaco es una de las 23 provincias de la República Argentina. <br>
-             A su vez, es uno de los 24 estados autogobernados que conforman el país <br>
-              y uno de los 24 distritos electorales legislativos nacionales.​​  <br>
-               Su capital y ciudad más poblada es Resistencia</p>
-    </section>
-    
-<section class="video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jh4k1RU7gSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
-<section class="mapa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670266.77233474!2d-63.14478300836359!3d-26.058251778941376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9440effae3c87247%3A0x4eaf96c0979eec95!2sChaco!5e0!3m2!1ses-419!2sar!4v1643837198091!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></section>
-    <section class="gratis">
-        <h2> ATRACCIONES GRATIS</h2>
-        <ul class="listaGratis">
-            <li a href="../img/reserva.png" >Lugar 1</li>
-            <li>Lugar 2</li>
-            <li>Lugar 3</li>
-            <li>Lugar 4</li>
-            <li>Lugar 5</li>
-            <li>Lugar 6</li>
-            <li>Lugar 7</li>
-            <li>Lugar 8</li>
-            <li>Lugar 9</li>
-            <li>Lugar 10</li>
-            <li>Lugar 11</li>
-            <li>Lugar 12</li>
-            <li>Lugar 13</li>
-            <li>Lugar 14</li>
-            <li>Lugar 15</li>
-        </ul>
-    </section>
-    <section class="pagas">
-        <h2> ATRACCIONES PAGAS</h2>
-        <ul>
-            <li>Lugar 1</li>
-            <li>Lugar 2</li>
-            <li>Lugar 3</li>
-            <li>Lugar 4</li>
-            <li>Lugar 5</li>
-            <li>Lugar 6</li>
-            <li>Lugar 7</li>
-            <li>Lugar 8</li>
-            <li>Lugar 9</li>
-            <li>Lugar 10</li>
-            <li>Lugar 11</li>
-            <li>Lugar 12</li>
-            <li>Lugar 13</li>
-            <li>Lugar 14</li>
-            <li>Lugar 15</li>
-        </ul>
-    </section>
-    <section class="festivales">
-        <h2>FESTIVALES</h2>
-        <P>Tango</P>
-    </section>
-    <section class="hoteles">
-        <h2>HOTELES</h2>
-        <ul>
-        <li>Hotel 1</li>
-        <li>Hotel 2</li>
-        <li>Hotel 3</li>
-        <li>Hotel 4</li>
-        <li>Hotel 5</li>
-    </ul>
-    </section>
-    <section class="traslados">
-        <h2>TRASLADOS</h2>
-        <p>Detallar todos los traslados</p>
-    </section>
-    <section class="recomendaciones">
-        <h2>Recomendamos dividir la ciudad en dos zonas:</h2>
-        <h3 class="norte">Zona Norte</h3>
-        <ul>
-            <li>Palace Alvear</li>
-            <li>Oleada plant-based</li>
-            <li>Centro Cultural Recoleta</li>
-            <li>Jardín Japonés</li>
-            <li>Rosedal de Palermo</li>
-            <li>Planetario</li>
-            <li>Museo de Arte Decorativo</li>
-            <li>Floralis Energética</li>
-            <li>Museo de Arquitectura</li>
-            <li>MALBA</li>
-            <li>Jardín Botánico</li>
-            <li>Uptow Bar</li>
-            <li>Restó Four season de Bs As</li>
-            <li>Lugar 14</li>
-            <li>Lugar 15</li>
-        </ul>          
-        <h3 class="sur">Zona Sur</h3>
-        <ul>
-            <li>Reserva Ecológica</li>
-            <li>Madame Palacio Paz</li>
-            <li>Teatro Colón</li>
-            <li>Obelisco</li>
-            <li>Sky Bar</li>
-            <li>M. Kaffe</li>
-            <li>Centro Naval</li>
-            <li>Paseo la Plaza</li>
-            <li>Mercado de Pulgas</li>
-            <li>Casa Rosada</li>
-            <li>La Boca</li>
-            <li>Plaza de Mayo</li>
-            <li>Cabildo</li>
-            <li>Puente de la Mujer</li>
-            <li>Galería Pacífico</li>
-            <li>Peñón del Águila</li>
-            <li>Puerto Madero</li>
-        </ul>
-    </section>
-    <footer>
-        <h3>GRACIAS POR VISITARNOS HASTA EL FINAL <br>
-            <span>QUE TENGAS UN HERMOSO VIAJE</span>  <br>
-            <span>TE DESEA ERIKA DI PIETRO</span>  </h3> <br>
+            <div class="container">
 
-        <h4 class="info">
-            <a href="../footer/nosotros.html"> Nosotros</a><br>
-            <a href="../footer/infogeneral.html">Información General</a><br>
-            <a href="../footer/consejos.html">Consejos de Viaje</a><br>
-            <a href="../footer/preguntas.html">Preguntas Frecuentes</a>
-        </h4>
-
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/costanerasurcorrientes.png" width="100%" height="285px" >
+                    <div class="card-body">
+                      <p class="card-text">Hermoso lugar para descansar , amplia playa en Costanera sur, sin duda uno de los lugares que no podemos perdernos en Corrientes.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/escaleracorrientes.png" width="100%" height="285px" >
+                    <div class="card-body">
+                      <p class="card-text">La Costanera De Itatí. El mosaiquismo es un arte muy antiguo que se realiza utilizando pequeñas piezas de distintas texturas, formas y colores.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/esterosdeiberacorrientes.png" width="100%" height="285px" >
+                    <div class="card-body">
+                      <p class="card-text">La Laguna del Iberá, donde se ubica el sitio, tiene una superficie de 5500 ha y es una de las más grandes y características del sistema en general.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/balneariocorrientes.png" width="100%" height="285px" >
+                    <div class="card-body">
+                      <p class="card-text">Las playas y balnearios de Paso de la Patria, Corrientes, ofrecen la posibilidad de detenerse a contemplar el paisaje desde sus exclusivos paradores, ubicados estratégicamente, permitiendo obtener vistas panorámicas inolvidables.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/puentecorrientes.png" width="100%" height="285px" >
+                    <div class="card-body">
+                      <p class="card-text">Es incriblemente bella la vista de Corrientes desde este puente, en Agosto se puede ver la Costanera con sus lapachos florecido</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
         
-            <a href="../index.html"> <button class="inicio" type="button"> <img src="../img/logoflynow.png" height="100px"
-                        width="100" /> </a> </button>
-    
-
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/parroquiacorrientes.png" width="100%" height="285px" >
+                    <div class="card-body">
+                      <p class="card-text">Parroquia Nuestra Señora de La Merced Hermosa vista de esta obra de arquitectura en el medio de la ciudad.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/parquecorrientes.png" width="100%" height="285px" >
+                    <div class="card-body">
+                      <p class="card-text">Los pastizales y las palmeras de yatay le otorgan al entorno una atmósfera rústica capaz de regalar atardeceres inolvidables. El área protegida cuenta con un campamento dotado de agua potable, mesadas, fogones y sanitarios. La entrada es gratuita.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/conventocorrientes.png" width="100%" height="285px" >
+                    <div class="card-body">
+                      <p class="card-text">Este hermoso convento es muy cálido, hay q visitarlo si estás en la ciudad de Corrientes, queda muy cerca de donde inicia la costanera.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
         
-            
-            <a href=""> <button class="instagram" type="button"> <img src="../img/instagram.png" height="30px"
-                        width="30" /> </a> </button>
-            <a href=""> <button class="instagram2" type="button"> <img src="../img/face.png" height="30px" width="30" />
-            </a> </button>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/plazacabracorrientes.png" width="100%" height="285px" >
+                    <div class="card-body">
+                      <p class="card-text">plaza grande y amplia con comercios cerca frente a la iglesia del rosario y entrada a la peatonal para dsifrutar a la tardecita.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/antiteatrocorrientes.png" width="100%" height="285px" >
+                    <div class="card-body">
+                      <p class="card-text">El escenario, que lleva el nombre de “Osvaldo Sosa Cordero”, tiene 35 metros de boca y 15 metros de profundidad, permitiendo la realización de puestas escénicas imponentes —entre ellas los internacionalmente conocidos Carnavales Correntinos— y multitudinarios espectáculos de la música y danza popular argentina</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/museocorrientes.png" width="100%" height="285px" >
+                    <div class="card-body">
+                      <p class="card-text">Cuenta con un vasto patrimonio de piezas antiguas como muebles y armas de los siglos XVIII y XIX. Se organizan visitas guiadas, proyecciones de documentales, presentaciones de libros y charlas especializadas sobre historia.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/centenario.png" width="100%" height="315px" >
+                    <div class="card-body">
+                      <p class="card-text">CENTENARIO es el PRIMER SHOPPING DE CORRIENTES marca la diferencia por su amplia oferta comercial y de servicios, donde los clientes encuentran un lugar cómodo donde realizar sus compras, reunirse con amigos y disfrutar del mejor entretenimiento.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/casaiberacorrientes.png" width="100%" height="315px" >
+                    <div class="card-body">
+                      <p class="card-text">Su diseño fue concebido para que su recorrido sea una experiencia sumamente entretenida, didáctica y enriquecedora. Recursos discursivos, diseño gráfico, reproducciones, dioramas, luces y videos se combinan premeditadamente para lograr ese escenario de motivación tan deseado.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/casagobiernocorrientes.png" width="100%" height="100%" >
+                    <div class="card-body">
+                      <p class="card-text">La Casa de Gobierno de Corrientes es la sede del Poder Ejecutivo de la Provincia de Corrientes y donde está el despacho del Gobernador; está ubicada en la intersección de las calles Salta y 25 de Mayo.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         
 
-        <div>
-            <form action="">
-                <label for="email">Recibí nuestras novedades</label>
-                <input type="text" name="email" placeholder="Ingrese su email" class="email">
-                <input type="submit" value="Enviar" class="enviar">
-            </form>
-        </div>
+            <h2>GASTRONOMÍA</h2>
 
-        <h5>
-            <a href="">Datos de Contacto</a>
-            <a href="">Política y Privacidad</a>
-            <a href="">Términos y Condiciones</a>
-        </h5>
+            <div class="container">
 
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/casaiberacorrientes.png" width="100%" height="315px" >
+                    <div class="card-body">
+                      <p class="card-text">La Casa de Gobierno de Corrientes es la sede del Poder Ejecutivo de la Provincia de Corrientes y donde está el despacho del Gobernador; está ubicada en la intersección de las calles Salta y 25 de Mayo.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../img/centenario.png" width="100%" height="315px" >
+                    <div class="card-body">
+                      <p class="card-text">CENTENARIO es el PRIMER SHOPPING DE CORRIENTES marca la diferencia por su amplia oferta comercial y de servicios, donde los clientes encuentran un lugar cómodo donde realizar sus compras, reunirse con amigos y disfrutar del mejor entretenimiento.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                
+              </div>
+            </div>
+          </div>
+        
+      </main>
+      
+      <!--FOOTER-->
+        <footer class="py-3 my-4" >
+          <a href="../index.html" id="subir" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <img class="logo" src="../img/logoflynow.png" width="120" alt="logo">
+          </a>
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="http://www.instagram.com" class="nav-link px-2 text-muted"><img class="logo" width="38" src="../img/instagram.png" alt="instagram"></a></li>
+            <li class="nav-item"><a href="http://www.facebook.com" class="nav-link px-2 text-muted"><img class="logo" width="37" src="../img/face.png" alt="facebook"></a></li>
+            </ul>
+          
+            <p class="text-center text-muted"><a href="../footer/infogeneral.html" class="nav-link px-2 text-muted">Términos y Condiciones</a></p>
+          
+          <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
+        </footer>
+      
 
-
-
-
-    </footer>
-
-
-</body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="../main.js"></script>
+    </body>
 
 </html>
